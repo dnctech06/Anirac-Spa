@@ -9,12 +9,7 @@ import style from './style.css';
 
 export default function Home() {
   return (
-    <main >
-      <div className='um' >ola mundo</div>
-      <div className='dois' >ola mundo</div>
-      <div className='tres' >ola mundo</div>
-
-      
+    <main >      
       <Navbar></Navbar>
       <Header></Header>
       <MainHome></MainHome>

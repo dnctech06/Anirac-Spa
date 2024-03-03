@@ -5,15 +5,50 @@
 }
 
 :root {
-  --rosa-marrom: linear-gradient(180deg,
-      hsl(19, 40%, 81%) 9%,
-      hsl(31, 48%, 59%) 60%,
-      hsl(42, 57%, 37%) 100%);
+  --um:  rgb(226, 200, 188);
+  --um-s: linear-gradient(0deg, rgba(226, 200, 188, 1) 9%, rgba(149, 117, 41, 1) 30%);
 
-  --marrom-rosa: linear-gradient(0deg,
-      hsl(19deg 40% 81%) 9%,
-      hsl(31deg 48% 59%) 60%,
-      hsl(42deg 57% 37%) 100%);
+  --dois: rgb(226, 200, 188);
+  --dois-s: linear-gradient(180deg, rgba(226, 200, 188, 1) 9%, rgba(149, 117, 41, 1) 30%);
 
+  --tres: rgb(149, 117, 41);
+  --tres-s: linear-gradient(0deg, rgba(149, 117, 41, 1) 9%, rgba(226, 200, 188, 1) 30%);
+
+  --quatro: rgb(149, 117, 41);
+  --quatro-s: linear-gradient(180deg, rgba(149, 117, 41, 1) 9%, rgba(226, 200, 188, 1) 30%);
 
 }
+
+
+/* 
+
+EXEMPLO DE USO DAS VÁRIAVESI CSS, AS VARIÁVEIS DEVEM IR NO CSS DO COMPONENTE OU PAGE QUE ESTÁO CRIANDO
+
+.um {
+    background:var(--um);
+    background: var(--um-s);
+    width: 400px;
+    height: 400px;
+}
+
+.dois {
+    background:var(--dois);
+    background: var(--dois-s);
+    width: 400px;
+    height: 400px;
+}
+
+.tres {
+    background:var(--tres);
+    background: var(--tres-s);
+    width: 400px;
+    height: 400px;
+}
+
+.quatro {
+    background:var(--quatro);
+    background: var(--quatro-s);
+    width: 400px;
+    height: 400px;
+}
+ */

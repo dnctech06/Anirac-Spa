@@ -1,5 +1,19 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+:root {
+  --rosa-marrom: linear-gradient(180deg,
+      hsl(19, 40%, 81%) 9%,
+      hsl(31, 48%, 59%) 60%,
+      hsl(42, 57%, 37%) 100%);
+
+  --marrom-rosa: linear-gradient(0deg,
+      hsl(19deg 40% 81%) 9%,
+      hsl(31deg 48% 59%) 60%,
+      hsl(42deg 57% 37%) 100%);
+
+
 }

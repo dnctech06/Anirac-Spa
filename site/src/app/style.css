@@ -1,0 +1,19 @@
+@import url(./globals.css);
+
+.um {
+    background-image: var(--rosa-marrom); 
+    width: 200px;
+    height: 200px;
+}
+
+.dois {
+    background-image: var(--marrom-rosa); 
+    width: 200px;
+    height: 200px;
+}
+
+.tres {
+    background-image: var(--rosa-marrom); 
+    width: 200px;
+    height: 200px;
+}

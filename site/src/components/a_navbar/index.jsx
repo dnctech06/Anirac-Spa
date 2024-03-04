@@ -1,10 +1,12 @@
+import Image from 'next/image';
 import style from './style.css';
+import Foto1 from '../../assets/img/espaco/1.jpg';
 
 const Navbar = () => {
     return(
-        <main>
-            Aqui vai o navbar, responsável Matheus Nascimento
-        </main>
+        <div>
+            <Image src={Foto1} alt="Foto render" />
+        </div>
     )
 }
 

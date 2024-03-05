@@ -1,0 +1,59 @@
+
+@import url(../../app/globals.css);
+
+.logo{
+    width: 260px;
+    height: 100px;
+    max-width: 100%;
+}   
+
+body{
+    background-color: #F8F7F3;
+
+}
+
+.Full_navbar{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 0rem 2rem 0rem 2rem;
+    justify-content: space-between;
+    background-color: #F8F7F3;
+}   
+
+.navbar_btn{
+    display: flex;
+    gap: 5rem;
+    font-size: 1.8rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+    padding: 0rem 1rem 0rem 1rem;
+
+}
+
+.lks{
+    text-decoration: none;
+    color: var(--verdeLetra);
+    font-weight: 600;
+}
+
+.navbar_links{
+    display: flex;
+    gap: 2rem;
+    max-width: 100%;
+    align-items: center;
+
+
+}
+
+.lks{
+}
+
+.lks_out{
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-wrap: wrap;
+
+}

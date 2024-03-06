@@ -1,10 +1,13 @@
 
 import style from './style.css';
+import Div from './div';
+
 
 const MidllleCuidados = () => {
     return(
-        <main>
-            aqui é a página cuidados, que ficará os serviços e valores da clínica, responsável letícia.
+        <main className='Full_MidllleCuidados'>
+            <Div></Div>
+            
         </main>
     )
 }

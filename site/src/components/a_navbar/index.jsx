@@ -19,8 +19,6 @@ const Navbar = () => {
             <div className='navbar_links'>
                 <a target="_blank" href="https://www.instagram.com/aniracspa/?igsh=aWthaDhzN3g4ZDNz"><Image className='lks_out' src={Insta} alt="Foto logo" /></a>
                 <a target="_blank" href="https://m.facebook.com/profile.php/?id=100083463273920"><Image className='lks_out' src={Face} alt="Foto logo" /></a>
-
-
             </div>
         </div>
     )

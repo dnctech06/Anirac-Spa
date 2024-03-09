@@ -72,6 +72,11 @@ function Div() {
             <p>Hipnoterapia</p>
             <pre> </pre> <p>{v60}</p>
           </div>
+          <br></br>
+          <br></br>
+          <div className="discription">
+            <p>**Tratamentos Personalizados Sob Consulta**</p>
+          </div>
         </section>
       )}
 

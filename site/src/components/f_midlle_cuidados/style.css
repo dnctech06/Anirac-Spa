@@ -3,7 +3,6 @@
 body {
     background: var(--tres);
     background: var(--tres-s);
-
 }
 
 .Full_service {
@@ -20,7 +19,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     cursor: pointer;
-
+    
 }
 
 .Full_service_div2 {

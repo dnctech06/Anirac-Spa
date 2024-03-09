@@ -1,0 +1,42 @@
+@import url(../../app/globals.css);
+
+.footer {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    background: var(--tres);
+    background: var(--tres-s);
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem;
+    text-align: left;
+
+}
+
+
+
+.localization {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.localization h4 {
+
+    color: var(--verdeLetra);
+}
+
+.mapa {
+    border: solid black 2px;
+    width: 20rem;
+    height: 20rem;
+}
+
+.footer_links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}

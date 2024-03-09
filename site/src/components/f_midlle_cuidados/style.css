@@ -1,24 +1,25 @@
 @import url(../../app//globals.css);
 
+body {
+    background: var(--tres);
+    background: var(--tres-s);
+
+}
 
 .Full_service {
     width: 100%;
     height: auto;
-    /*  
-    background-color: rgb(47, 72, 63);
-    */
-
     background-image: url(../../assets/img/espaco/teste1.svg);
     background-size: cover;
-    
+    background-position: center;
     display: flex;
     align-self: center;
     color: rgb(97, 244, 117);
-    position: relative;
     max-width: 100%;
-    max-height  : 100%;
+    max-height: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
+    cursor: pointer;
 
 }
 
@@ -27,45 +28,89 @@
     height: auto;
     background-image: url(../../assets/img/servico//laser1.svg);
     background-size: cover;
-    background-position:center ;
+    background-position: center;
     display: flex;
     align-self: center;
     color: rgb(97, 244, 117);
-    position: relative;
     max-width: 100%;
-    max-height  : 100%;
+    max-height: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.Full_service_div3 {
+    width: 100%;
+    height: auto;
+    background-image: url(../../assets/img/espaco/feet.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-self: center;
+    color: rgb(97, 244, 117);
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+
+.Full_service_div4 {
+    width: 100%;
+    height: auto;
+    background-image: url(../../assets/img/espaco/fire.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-self: center;
+    color: rgb(97, 244, 117);
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
 
 }
 
 
-.Title_FullBody{
+
+.Title_FullBody {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 
-.service_description{
+.service_description {
     display: flex;
 }
 
 
 
-.Full_service h1, .Full_service_div2 h1 {
+.Full_service h1,
+.Full_service_div2 h1,
+.Full_service_div3 h1,
+.Full_service_div4 h1 {
     font-size: 2.5rem;
     padding: 0.25rem;
     align-self: center;
 
 }
 
-.Full_service h2, .Full_service_div2 h2, h4 {
+.Full_service h2,
+.Full_service_div2 h2,
+.Full_service_div3 h2,
+.Full_service_div4 h2,
+h4 {
     font-size: 1.9rem;
     color: bisque;
 }
 
-.Full_service p, .Full_service_div2 p {
+.Full_service p,
+.Full_service_div2 p,
+.Full_service_div3 p,
+.Full_service_div4 p {
     font-size: 1.3rem;
 
 }
@@ -73,18 +118,18 @@
 
 
 
-.valores{
+.valores {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 100%;
-    max-height  : 100%;
+    max-height: 100%;
     gap: 0.5rem;
     padding: 1rem 0px 1rem 0px;
 }
 
-.discription{
+.discription {
     display: flex
 }
 
@@ -93,20 +138,5 @@
 .Full_MidllleCuidados {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 1.5rem;
 }
-
-.Services {}
-
-
-
-/* 
-
-content: "";
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, rgb(31,31,31));
-    position: absolute;
-    border: 3px solid blue;
-
-*/

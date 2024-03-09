@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import style from "./style.css";
-import Massagem from "../../assets/img/espaco/linda-loira-recebendo-uma-massagem.jpg";
 
 const v15 = " - 15,00€ / fio";
 
@@ -28,14 +27,11 @@ function Div() {
   const [info, setInfo] = useState(false);
 
   function InfoOn() {
-    if(info === true){
+    if (info === true) {
       setInfo(false);
-    }else{
+    } else {
       setInfo(true);
-
     }
-
-    
   }
 
   function InfoOff() {
@@ -55,6 +51,8 @@ function Div() {
 
       {info === true && (
         <section className="valores">
+          <h2>Tratamentos de Rosto</h2>
+
           <div className="discription">
             <p>Ácido Marcas Acne</p> <pre> </pre> <p> {v40}</p>
           </div>
@@ -62,7 +60,8 @@ function Div() {
             <p>Ácido Pele Sensível</p> <pre> </pre> <p>{v40}</p>
           </div>
           <div className="discription">
-            <p>Ácidos Manchas</p><pre> </pre>  <p>{v40}</p>
+            <p>Ácidos Manchas</p>
+            <pre> </pre> <p>{v40}</p>
           </div>
           <div className="discription">
             <p>Ácido Redução Rugas</p> <pre> </pre> <p>{v40}</p>
@@ -73,7 +72,8 @@ function Div() {
           <h2>Packs</h2>
 
           <div className="discription">
-            <p>Fibroína de Seda 3 sessões</p><pre> </pre>  <p>{v150}</p>
+            <p>Fibroína de Seda 3 sessões</p>
+            <pre> </pre> <p>{v150}</p>
           </div>
           <div className="discription">
             <p>Manutenção com Mãos de Seda</p> <pre> </pre> <p>{v27}</p>
@@ -82,13 +82,16 @@ function Div() {
             <p>Verniz de gel com Mãos de Seda</p> <pre> </pre> <p>{v20}</p>
           </div>
           <div className="discription">
-            <p>Pedicure completa com Verniz de gel</p><pre> </pre>  <p>{v25}</p>
+            <p>Pedicure completa com Verniz de gel</p>
+            <pre> </pre> <p>{v25}</p>
           </div>
           <div className="discription">
-            <p>Pedicure normal com Verniz de gel</p><pre> </pre>  <p>{v18}</p>
+            <p>Pedicure normal com Verniz de gel</p>
+            <pre> </pre> <p>{v18}</p>
           </div>
           <div className="discription">
-            <p>Hidrolinfa Pack de 10</p><pre> </pre>  <p>{v100} Válidade 3 meses</p>
+            <p>Hidrolinfa Pack de 10</p>
+            <pre> </pre> <p>{v100} Válidade 3 meses</p>
           </div>
           <div className="discription">
             <p>Terapêutica zona 40' Pack de 3</p> <pre> </pre> <p>{v80}</p>
@@ -111,7 +114,8 @@ function Div() {
             <p>Osteopatia Pediátrica</p> <pre> </pre> <p>{v45}</p>
           </div>
           <div className="discription">
-            <p>Massoterapia</p><pre> </pre>  <p>{v45}</p>
+            <p>Massoterapia</p>
+            <pre> </pre> <p>{v45}</p>
           </div>
           <div className="discription">
             <p>Terapia Sacrocraniana</p> <pre> </pre> <p>{v40}</p>
@@ -145,8 +149,6 @@ function Div() {
           <div className="discription">
             <p>Multi-fill</p> <pre> </pre> <p>{v75}</p>
           </div>
-          
-          
         </section>
       )}
     </div>

@@ -5,7 +5,6 @@ const Form = () => {
     return (
         <main className='Form'>
         <ContactForm></ContactForm>   
-
         </main>
     )
 }

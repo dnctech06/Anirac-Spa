@@ -7,7 +7,7 @@
     width: 25rem;
     height: auto;
     max-width: 100%;
-    margin: 3rem 0 5rem 0;
+    margin: 0rem 0 5rem 0;
     padding: 0px 10px 0px 10px;
 }
 
@@ -31,7 +31,7 @@ textarea::placeholder, input::placeholder{
 .Form_full_call {
     font-family: Nova Square;
     font-size: 2rem;
-    color: white;
+    color: var(--verdeLetra);
     
 }
 

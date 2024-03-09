@@ -1,25 +1,23 @@
-
 @import url(../../app/globals.css);
 
-.logo{
+.logo {
     width: 260px;
     height: 100px;
     max-width: 100%;
-}   
+}
 
 
 
-.Full_navbar{
+.Full_navbar {
     display: flex;
     max-width: 100%;
     flex-wrap: wrap;
-    margin: 0rem 2rem 0rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
     justify-content: space-between;
-    background:var(--tres-);
+    background: #F8F7F3;
+}
 
-}   
-
-.navbar_btn{
+.navbar_btn {
     display: flex;
     gap: 5rem;
     font-size: 1.8rem;
@@ -28,29 +26,91 @@
     align-items: center;
     text-decoration: none;
     padding: 0rem 1rem 0rem 1rem;
-
 }
 
-.lks{
+.lks {
     text-decoration: none;
     color: var(--verdeLetra);
     font-weight: 600;
+
 }
 
-.navbar_links{
+.navbar_links {
     display: flex;
     gap: 2rem;
     max-width: 100%;
     align-items: center;
 
-
 }
 
 
 
-.lks_out{
+.lks_out {
     width: 2.5rem;
     height: 2.5rem;
     flex-wrap: wrap;
 
 }
+
+
+@media screen and (max-width: 1215px) {
+
+    .logo {
+        width: 520px;
+        height: 200px;
+        max-width: 100%;
+    }
+
+
+    .Full_navbar {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 2.6rem;
+        gap: 1.5rem;
+
+    }
+
+    .navbar_btn {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        font-size: 2.6rem;
+        gap: 1.5rem;
+    }
+
+    .navbar_links {
+        justify-content: center;
+        padding: 1rem 0pc 1rem 0px;
+    }
+
+    .lks_out {
+        width: 4rem;
+        height: 4rem;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+
+@media screen and (max-width: 880px) {
+    .navbar_btn {
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .navbar_btn {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        font-size: 2rem;
+        gap: 1.2rem;
+    }
+}
+
+

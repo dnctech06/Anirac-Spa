@@ -1,1 +1,8 @@
 @import url(../../app/globals.css);
+
+.Form{
+    background: var(--tres);
+    background: var(--tres-s);
+    display: flex;
+    justify-content: center;
+}

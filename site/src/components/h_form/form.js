@@ -18,7 +18,7 @@ export default function ContactForm() {
       <input required placeholder="exemple@email.com" id="email" type="email" name="email" />
 
       <label htmlFor="telefone">Telefone</label>
-      <input  placeholder="_____-____" id="telefone" type="telefone" name="telefone" />
+      <input  placeholder="___-___-___" id="telefone" type="telefone" name="telefone" />
 
      
         Dúvidas ou Sugestões*

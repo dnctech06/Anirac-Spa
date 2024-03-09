@@ -126,6 +126,7 @@ h4 {
     max-height: 100%;
     gap: 0.5rem;
     padding: 1rem 0px 1rem 0px;
+
 }
 
 .discription {
@@ -138,4 +139,28 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 1310px) {
+    .Full_service_div, .Full_service_div2, .Full_service_div3, .Full_service_div4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .valores {
+        text-align: center;
+
+    }
+
+    .discription{
+        text-align: center;
+        align-items:center ;
+        align-self:center ;
+    }
+
+    .discription{
+        padding-right: 8px;
+    }
 }

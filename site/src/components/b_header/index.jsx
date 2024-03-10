@@ -11,11 +11,8 @@ const Header = () => {
             <div id="secao-imagem">
                 <div id="text-imagem">
                     <h2>Quem somos?</h2>
-                    <p>Nós realizamos desde 2002 projetos e gerenciamento de obras.
-                    Com mais de 800 projetos e 2.000.000 de m² construídos, tendo
-                    como principal proposta transformar em realidade os sonhos de
-                    seus clientes, criando projetos personalizados, unindo a tradição
-                    e a modernidade em nossos projetos.</p>
+                    <p>A Anirac é uma empresa dedicada ao ramo de estética e bem-estar. Fundada há um ano e meio e com sede em Braga-Portugal, veio da idealização de duas mulheres chamadas Carina. A empresa busca  proporcionar aos clientes uma experiência única, as sócias, uma especializada na parte estética e a outra focada em terapias holíticas, dividem suas funções para oferecer uma gama variadade serviços.
+                    </p>
                 </div>
                 <div id="image">
                     <Image src={image1} className={"img1"} alt="Error" />

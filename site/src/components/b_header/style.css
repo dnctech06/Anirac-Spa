@@ -1,0 +1,47 @@
+@import url(../../app/globals.css);
+
+#secao-imagem {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    background-color:;
+}
+
+#text-imagem {
+    width: 576px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#text-imagem h2 {
+    font-size: 32px;
+    padding: 25px;
+}
+
+#text-imagem p {
+    padding: 25px;
+    font-size: 23px;
+}
+
+#image {
+    justify-content: center;
+
+.img1 {
+    width: 400px;
+    height: 380px;
+    padding-top: 10px;
+    z-index: 2;
+}
+
+.img2 {
+    width: 260px;
+    height: 300px;
+    padding-top: 22px;
+    position: absolute;
+    z-index: 1;
+}
+
+}

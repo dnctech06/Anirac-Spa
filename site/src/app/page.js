@@ -7,13 +7,15 @@ import style from './style.css';
 
 
 
+
 export default function Home() {
   return (
     <main >      
-      <Navbar></Navbar>
+       <Navbar></Navbar>
       <Header></Header>
       <MainHome></MainHome>
       <Footer></Footer>
+
     </main>
   );
 }

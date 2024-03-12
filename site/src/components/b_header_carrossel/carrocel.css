@@ -1,12 +1,29 @@
-/* carrocel.css */
+@import url(../../app/globals.css);
+
+
+.Carousel_full{
+  border: solid 2px blue;
+
+}
+
 .estilo {
-    margin-right: 35%;
-    margin-top: 10%;
-    margin-left: 7%;
     .slick-slide img {
       width: 100%; /* Define a largura da imagem */
       height: 330px; /* Define uma altura fixa para todas as imagens */
       object-fit: cover; /* Ajusta a imagem dentro do contêiner mantendo a proporção */
       margin: 0 auto; /* Centraliza a imagem horizontalmente */
+      border: solid 2px red;
+      max-width: 100%;
+      opacity: 0.7;
     }
+}
+
+.text{
+  border: solid 2px yellowgreen;
+
+}
+.ImgCarousel{
+  width: 600px;
+  height: 150px;
+
 }

@@ -1,9 +1,8 @@
-import Image from 'next/image';
 import style from './style.css';
 import Image from 'next/image';
 
-import FaceColor from '../../assets/img/servico/FaceColor.png';
-import InstaColor from '../../assets/img/servico/InstaColor.png';
+import FaceColor from '../../assets/img/servicos/FaceColor.png';
+import InstaColor from '../../assets/img/servicos/InstaColor.png';
 const endereco = 'Travessa do Teixeirinha RC n23';
 const cep = '4750-336 Barcelos';
 const telefone1 = '935689094 Carina Barbosa';

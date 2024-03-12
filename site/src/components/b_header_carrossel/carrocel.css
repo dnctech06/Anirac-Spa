@@ -1,0 +1,12 @@
+/* carrocel.css */
+.estilo {
+    margin-right: 35%;
+    margin-top: 10%;
+    margin-left: 7%;
+    .slick-slide img {
+      width: 100%; /* Define a largura da imagem */
+      height: 330px; /* Define uma altura fixa para todas as imagens */
+      object-fit: cover; /* Ajusta a imagem dentro do contêiner mantendo a proporção */
+      margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }
+}

@@ -7,7 +7,7 @@
     padding: 0;
     height: 500px;
     background-color: var(--tres);
-    
+
 }
 
 #text-imagem {
@@ -29,6 +29,7 @@
 
 #image {
     justify-content: center;
+}
 
 .img1 {
     width: 400px;
@@ -43,6 +44,4 @@
     padding-top: 22px;
     position: absolute;
     z-index: 1;
-}
-
 }

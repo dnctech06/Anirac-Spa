@@ -3,61 +3,87 @@
 #secaoImagem {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     height: 500px;
     background: var(-tres);
     background: var(-tres-s);
-    border: solid 2px rgb(30, 255, 0);
-    max-width: 100%;
+}
+
+#image {
+    align-self: center;
+}
+
+.img1 {
+    width: 26rem;
+    height: 22rem;
+
 }
 
 #text-imagem {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    border: solid 2px red;
     max-width: 100%;
     flex-wrap: wrap;
     max-width: 45rem;
+    max-height: 30rem;
+
 }
 
 #text-imagem h2 {
-    font-size: 32px;
-    padding: 25px;
-    border: solid 2px red;
+    font-size: 2.5rem;
+    padding: 1rem;
     max-width: 100%;
-    flex-wrap: wrap;
     width: auto;
 }
 
 #text-imagem p {
-    padding: 25px;
-    font-size: 23px;
-    border: solid 2px red;
+    font-size: 1.5rem;
+    line-height: 35px;
     max-width: 100%;
-    flex-wrap: wrap;
-    width: auto;
+
 }
 
-#image {
-    border: solid 2px rgb(200, 255, 0);
-}
 
-.img1 {
-    width: auto;
-    height: auto;
-    border: solid 2px rgb(0, 4, 255);
-    max-width: 100%;
-}
 
-@media screen and (max-width: 850px){
-    #secaoImagem{
+@media screen and (max-width: 850px) {
+    #secaoImagem {
         display: flex;
         flex-direction: column;
     }
 
-    #image{
+    #image {
         display: none;
     }
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    #text-imagem h2 {
+        font-size: 1.5rem;
+        padding: 1rem;
+        max-width: 100%;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    #text-imagem p {
+        font-size: 1rem;
+        line-height: 24px;
+
+        max-width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+
 }

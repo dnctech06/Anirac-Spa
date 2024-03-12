@@ -1,58 +1,55 @@
+@import url(../../app//globals.css);
 
-
-.aboutImg{
+.aboutImg {
     text-align: end;
     padding-right: 30px;
-    border: solid 2px rgb(4, 255, 0);
     
-    
+
 }
 
-.firstfounder{
-    display: grid;
-    grid-auto-flow: column;
+.firstfounder {
+    display: flex;
     text-align: center;
     align-items: center;
+    background: var(--um);
     background: var(--dois-s);
-    padding: 20px 0px 100px 0px;
-    border: solid 2px rgb(30, 0, 255);
-    
+    padding: 2rem 0px 2rem 0px;
+    justify-content: space-around;
 }
 
-.secondfounder{
-    display: grid;
-    grid-auto-flow: column;
+.secondfounder {
+    display: flex;
     text-align: center;
     align-items: center;
-    background: var(--um-s);
-    padding: 20px 0px 100px 0px;
-    
-    border: solid 2px rgb(30, 0, 255);
-    
+    background: var(--tres);
+    background: var(--quatro-s);
+    padding: 2rem 0px 7rem 0px;
+    justify-content: space-around;
 
 }
 
-.aboutText{
-    color:rgba(226, 200, 188, 1);
-    border: solid 2px rgb(255, 0, 174);
+.aboutText {
+    color: black;
     padding: 20px 8px 20px 8px;
+    font-size: 1.5rem;
 }
 
-.FouderImage{
+.FouderImage {
     max-width: 100%;
+    padding: 1rem;
 }
 
 
-@media screen and (max-width: 850px){
-    .firstfounder{
-        display:flex;
+@media screen and (max-width: 850px) {
+    .firstfounder {
+        display: flex;
         flex-direction: column;
-        
+
     }
-    
-    .secondfounder{
-        display:flex;
+
+    .secondfounder {
+        display: flex;
         flex-direction: column-reverse;
-        
+
     }
 }

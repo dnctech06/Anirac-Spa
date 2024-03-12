@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
     height: 500px;
-    background-color: var(--tres);
+    background: var(-tres);
+    background: var(-tres-s);
     border: solid 2px rgb(30, 255, 0);
     max-width: 100%;
 }

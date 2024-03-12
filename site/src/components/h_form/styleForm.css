@@ -30,10 +30,12 @@ textarea::placeholder, input::placeholder{
 
 
 .Form_full_call {
+    padding-top: 5rem;
     font-family: Nova Square;
     font-size: 2rem;
+    font-weight: 900;
     color: var(--verdeLetra);
-    
+    margin-bottom: 0px;
 }
 
 .txt_areaCall{

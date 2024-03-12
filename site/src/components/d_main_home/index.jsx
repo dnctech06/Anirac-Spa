@@ -11,7 +11,7 @@ const MainHome = () => {
     return(
         <main>
             <div className='whoWeAre'>
-                <div>
+                <div className='txt'>
                     <h3>Quem somos?</h3>
                     <p>Corpo mente e alma, este é o nosso lema.<br/> 
                     Tratamos o individuo como um todo.<br/><br/>
@@ -28,9 +28,8 @@ const MainHome = () => {
 
                 <div className='imageswho'>
                     <div>
-                        <Image id='foto1' src={Foto1} alt="Foto render" height={360} width={360} />
-                        <Image id='foto2' src={Foto2} alt="Foto render" height={230} width={250}/>
-                        <Image id='foto3' src={Foto3} alt="Foto render" height={400} width={300}/>
+                        <Image id='foto1' className='ImgWho' src={Foto1} alt="Foto render" />
+                        
                     </div>
                                     
 

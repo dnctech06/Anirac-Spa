@@ -137,6 +137,7 @@ h4 {
 
 .Full_MidllleCuidados {
     display: flex;
+    padding-top: 1.5rem;
     flex-direction: column;
     gap: 1.5rem;
 }

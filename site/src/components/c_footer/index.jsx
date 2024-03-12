@@ -7,9 +7,9 @@ const endereco = 'Travessa do Teixeirinha RC n23';
 const cep = '4750-336 Barcelos';
 const telefone1 = '935689094 Carina Barbosa';
 const telefone2 = '915431245 Susana Barbosa';
-const Footer = () => {
+const Footer = (props) => {
     return (
-        <main className='footer'>
+        <main style={props.style} className='footer'>
             <div className='footer_info'>
                 <div>
                 <iframe className='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65029989.89601611!2d-76.97627456207601!3d5.

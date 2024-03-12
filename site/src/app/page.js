@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <main >      
       <Navbar></Navbar>
-      <Carrossel></Carrossel>
       <MainHome></MainHome>
+      <Carrossel></Carrossel>
       <Footer></Footer>
 
     </main>

@@ -1,34 +1,46 @@
-.whoWeAre{
-    display: grid;
-    grid-auto-flow: column;
-    text-align: center;
+@import url(../../app//globals.css);
+
+.whoWeAre {
+    display: flex;
     background: var(--um-s);
-    color: rgba(226, 200, 188, 1);
-    height: 580px;
+    justify-content: space-around;
+    border: red solid 2px;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.txt {
+    color: rgb(255, 225, 210);
     align-items: center;
+    text-align: center;
+
     font-family: "Inter", sans-serif;
     font-size: 25px;
-    padding: 0px 0px 100px 0px;
-   
-}
-
-.imageswho{
-   text-align: end;
-   
-}
-
-#foto2{
-
-    margin-bottom: 275px;
-    margin-right: -280px;
-    position: relative;
-    z-index: 10;
+    padding: 3rem 1rem 5rem 1rem;
+    border: red solid 2px;
 
 }
 
-#foto1{
-    margin-bottom: 160px;
-    position: relative;
-    z-index: 10;
+.whoWeAre>div {
+    padding: 0.5rem;
+
 }
 
+.imageswho {
+    border: blue solid 2px;
+    text-align: center;
+    max-width: 100%;
+    pad: 1.5rem;
+}
+
+.ImgWho{
+    max-width: 100%;
+
+}
+
+@media screen and (max-width: 850px) {
+    .whoWeAre {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -16,7 +16,12 @@
     font-family: "Inter", sans-serif;
     font-size: 25px;
     padding: 3rem 1rem 5rem 1rem;
+}
 
+.txt p{
+    text-align: justify;
+    max-width: 40rem;
+    font-size: 1.8rem;
 }
 
 .whoWeAre>div {
@@ -32,7 +37,8 @@
 
 .ImgWho{
     max-width: 100%;
-
+    width: 28rem;
+    height: 26rem;
 }
 
 @media screen and (max-width: 850px) {

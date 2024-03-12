@@ -2,7 +2,7 @@ import Image from 'next/image';
 import style from './style.css';
 
 import image2 from '../../assets/img/espaco/10.png';
-import image1 from '../../assets/img/espaco/4.png';
+import image1 from '../../assets/img/espaco/colagem.png';
 
 const Header = () => {
     return (

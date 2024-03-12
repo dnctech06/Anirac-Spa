@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <main>
 
-            <div id="secao-imagem">
+            <div id="secaoImagem">
                 <div id="text-imagem">
                     <h2>Quem somos?</h2>
                     <p>A Anirac é uma empresa dedicada ao ramo de estética e bem-estar.
@@ -21,7 +21,6 @@ const Header = () => {
                 </div>
                 <div id="image">
                     <Image src={image1} className={"img1"} alt="Error" />
-                    <Image src={image2} className={"img2"} alt="Error" />
 
                 </div>
             </div>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import style from './style.css';
 import Image from 'next/image';
 

@@ -1,0 +1,44 @@
+.aboutUs{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    height: 450px;
+    align-items: center;
+    background: var(--um-s);
+    color: rgba(226, 200, 188, 1);
+    ;
+    
+    
+}
+
+.aboutImg{
+    text-align: end;
+    padding-right: 30px;
+    
+    
+}
+
+.firstfounder{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    align-items: center;
+    background: var(--dois-s);
+    padding: 150px 0px 200px 0px;
+    
+}
+
+.secondfounder{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    align-items: center;
+    background: var(--um-s);
+    padding-bottom: 150px;
+    
+
+}
+
+.aboutText{
+    color:rgba(226, 200, 188, 1);
+}

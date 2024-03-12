@@ -7,6 +7,7 @@ import style from './style.css';
 import Carrossel from '@/components/b_header_carrossel/Carrocel';
 
 
+
 export default function Home() {
   return (
     <main >      
@@ -15,6 +16,7 @@ export default function Home() {
       <Header></Header>
       <MainHome></MainHome>
       <Footer></Footer>
+
     </main>
   );
 }

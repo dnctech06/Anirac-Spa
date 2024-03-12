@@ -1,10 +1,5 @@
-import Image from 'next/image';
 import style from './style.css';
-import Logo from '../../assets/img/servico/logo.jpg';
-import Face from '../../assets/img/servico/facebookVerde.png';
-import Insta from '../../assets/img/servico/instagraVerdem.png';
-import Link from 'next/link';
-
+import Foto1 from '../../assets/img/espaco/1.jpg';
 
 const Navbar = () => {
     return (

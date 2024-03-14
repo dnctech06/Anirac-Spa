@@ -12,14 +12,14 @@ const Footer = (props) => {
         <main style={props.style} className='footer'>
             <div className='footer_info'>
                 <div>
-                <iframe className='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65029989.89601611!2d-76.97627456207601!3d5.
-                839327177557996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2453c3dc4f57bf%3A0x4de05f76c2d63628!2sAnirac%
-                20SPA!5e0!3m2!1spt-BR!2sbr!4v1709996456843!5m2!1spt-BR!2sbr"   
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-
-                </iframe>
+                    <iframe
+                        className='mapa'
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65029989.89601611!2d-76.97627456207601!3d5.839327177557996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2453c3dc4f57bf%3A0x4de05f76c2d63628!2sAnirac%20SPA!5e0!3m2!1spt-BR!2sbr!4v1709996456843!5m2!1spt-BR!2sbr"
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    >
+                    </iframe>
                 </div>
                 <div className='localization'>
                     <h4>{endereco}</h4>
@@ -34,7 +34,7 @@ const Footer = (props) => {
                 </div>
             </div>
             <p className='footer_end'>Contruído por Tech06 - DNC ®All rights reserved</p>
-            
+
 
         </main>
     )

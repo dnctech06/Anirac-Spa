@@ -3,12 +3,11 @@
 .aboutImg {
     text-align: end;
     padding-right: 30px;
-    
-
 }
 
 .firstfounder {
     display: flex;
+    color: rgb(255, 225, 210);
     text-align: center;
     align-items: center;
     background: var(--um);
@@ -25,18 +24,22 @@
     background: var(--quatro-s);
     padding: 2rem 0px 7rem 0px;
     justify-content: space-around;
+    color: #436A11;
+    
 
 }
 
 .aboutText {
-    color: black;
     padding: 20px 8px 20px 8px;
     font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    
 }
 
 .FouderImage {
     max-width: 100%;
     padding: 1rem;
+    margin-top: 9rem;
 }
 
 

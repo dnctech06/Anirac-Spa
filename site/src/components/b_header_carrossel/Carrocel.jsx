@@ -30,7 +30,7 @@ function Carrossel() {
 
       <Link  className='linkCuidadosTitle' href='/cuidados'>
         <div className="txtCuidados">
-          <p>CUIDADOS</p>
+          <h2>CUIDADOS</h2>
         </div>
         <Slider {...settings} className='estilo'>
           <div>

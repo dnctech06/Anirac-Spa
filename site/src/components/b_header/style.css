@@ -6,13 +6,15 @@
     justify-content: space-around;
     margin: 0;
     padding: 0;
-    height: 500px;
+    height: 600px;
     background: var(-tres);
     background: var(-tres-s);
 }
 
 #image {
     align-self: center;
+    margin-top: 4rem;
+    
 }
 
 .img1 {
@@ -23,12 +25,16 @@
 
 #text-imagem {
     justify-content: center;
+    text-align: justify;
     align-items: center;
     padding: 30px;
     max-width: 100%;
     flex-wrap: wrap;
     max-width: 45rem;
     max-height: 30rem;
+    font-family: "Montserrat", sans-serif;
+    color: #436A11;
+    margin-top: 80px;
 
 }
 
@@ -37,6 +43,7 @@
     padding: 1rem;
     max-width: 100%;
     width: auto;
+    text-align: center;
 }
 
 #text-imagem p {

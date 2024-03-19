@@ -4,24 +4,25 @@
     display: flex;
     background: var(--um-s);
     justify-content: space-around;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
     padding-top: 2rem;
+    
 }
 
 .txt {
     color: rgb(255, 225, 210);
     align-items: center;
     text-align: center;
-
-    font-family: "Inter", sans-serif;
     font-size: 25px;
     padding: 3rem 1rem 5rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5rem;
 }
 
 .txt p{
-    text-align: justify;
+    text-align:justify;
     max-width: 40rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .whoWeAre>div {
@@ -31,8 +32,10 @@
 
 .imageswho {
     text-align: center;
+    margin-top: 3.5rem;
     max-width: 100%;
     pad: 1.5rem;
+    margin-top: 8rem;
 }
 
 .ImgWho{

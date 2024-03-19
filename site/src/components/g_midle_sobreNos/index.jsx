@@ -10,12 +10,13 @@ const MidllleSobreNos = () => {
         <main>
             <div>
                 <div className='firstfounder'>
-                    <div>
-                    <Image className='FouderImage' src={secondFounder} alt="Foto render" width={480}/>
+                    <div className='FouderImage'>
+                    <Image src={secondFounder} alt="Foto render" width={480}/>
                         
                     </div>
                     <div className='aboutText'>
-                        <h3>Primeira fundadora</h3>
+                        <br /><br /><br />
+                        <h3>Primeira fundadora</h3><br />
                         <p>Lorem Ipsum is simply dummy text of the <br />
                         printing and typesetting industry. Lorem Ipsum <br />
                         has been the industry's standard dummy text <br />
@@ -33,7 +34,8 @@ const MidllleSobreNos = () => {
                 </div>
                 <div className='secondfounder'>
                     <div className='aboutText'>
-                        <h3>Segunda fundadora</h3>
+                    <br /><br /><br />
+                        <h3>Segunda fundadora</h3><br />
                         <p>Lorem Ipsum is simply dummy text of the <br />
                         printing and typesetting industry. Lorem Ipsum <br />
                         has been the industry's standard dummy text <br />
@@ -48,8 +50,8 @@ const MidllleSobreNos = () => {
                         like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
                     </div>
-                    <div>
-                        <Image className='FouderImage' src={firstFounder} alt="Foto render" width={480}/>
+                    <div className='FouderImage'>
+                        <Image src={firstFounder} alt="Foto render" width={480}/>
                     </div>
                 </div>
             </div>

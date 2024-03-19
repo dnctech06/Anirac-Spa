@@ -9,7 +9,9 @@
     max-width: 100%;
     margin: 0rem 0 5rem 0;
     padding: 20px 10px 0px 10px;
-
+}
+.Form_full_call label{
+    font-family: "Sarabun", sans-serif;
 }
 
 textarea{

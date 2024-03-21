@@ -7,18 +7,15 @@ import { Loading } from 'notiflix/build/notiflix-loading-aio';
 import { useEffect } from 'react';
 
 const MidllleCuidados = () => {
-    // Adicionar indicador de carregamento ao carregar a página
     useEffect(() => {
-        // Exibir indicador de carregamento
+        
         Loading.dots('Aguarde...');
-
-        // Remover indicador de carregamento após 4 segundos
         const timer = setTimeout(() => {
             Loading.remove();
         }, 2500);
 
         return () => {
-            clearTimeout(timer); // Limpar o temporizador quando o componente for desmontado
+            clearTimeout(timer); 
         };
     }, []);
 

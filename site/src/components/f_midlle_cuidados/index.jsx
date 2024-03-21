@@ -15,7 +15,7 @@ const MidllleCuidados = () => {
         // Remover indicador de carregamento após 4 segundos
         const timer = setTimeout(() => {
             Loading.remove();
-        }, 3500);
+        }, 2500);
 
         return () => {
             clearTimeout(timer); // Limpar o temporizador quando o componente for desmontado

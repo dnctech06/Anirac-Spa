@@ -10,6 +10,7 @@ const Header = () => {
 
             <div id="secaoImagem">
                 <div id="text-imagem">
+                    
                     <h2>Quem somos?</h2>
                     <p>A Anirac é uma empresa dedicada ao ramo de estética e bem-estar.
                         Fundada há um ano e meio e com sede em Braga-Portugal, veio da

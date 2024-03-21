@@ -21,7 +21,7 @@ export default function ContactForm() {
       <input  placeholder="___-___-___" id="telefone" type="telefone" name="telefone" />
 
      
-        Dúvidas ou Sugestões*
+        <label>Dúvidas ou Sugestões*</label>
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <textarea required className="txt_areaCall" placeholder="partilhe aqui a sua dúvida ou sugestão..." id="ds" name="ds" />
       <ValidationError prefix="ds" field="ds" errors={state.errors} />

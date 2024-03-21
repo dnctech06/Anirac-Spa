@@ -78,6 +78,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+
+.Title_FullBody h1{
+    font-family: "Gabriela", serif;
 }
 
 
@@ -126,6 +131,7 @@ h4 {
     max-height: 100%;
     gap: 0.5rem;
     padding: 1rem 0px 1rem 0px;
+    font-family: "Gabriela", serif;
 
 }
 

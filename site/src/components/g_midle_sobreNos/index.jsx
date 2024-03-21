@@ -11,11 +11,11 @@ const MidllleSobreNos = () => {
             <div>
                 <div className='firstfounder'>
                     <div className='FouderImage'>
-                    <Image src={secondFounder} alt="Foto render" width={480}/>
+                    <Image src={firstFounder} className='FouderImg' alt="Foto render" width={480}/>
                         
                     </div>
                     <div className='aboutText'>
-                        <br /><br /><br />
+                        
                         <h3>Primeira fundadora</h3><br />
                         <p>Lorem Ipsum is simply dummy text of the <br />
                         printing and typesetting industry. Lorem Ipsum <br />
@@ -34,7 +34,7 @@ const MidllleSobreNos = () => {
                 </div>
                 <div className='secondfounder'>
                     <div className='aboutText'>
-                    <br /><br /><br />
+                    
                         <h3>Segunda fundadora</h3><br />
                         <p>Lorem Ipsum is simply dummy text of the <br />
                         printing and typesetting industry. Lorem Ipsum <br />
@@ -51,7 +51,7 @@ const MidllleSobreNos = () => {
 
                     </div>
                     <div className='FouderImage'>
-                        <Image src={firstFounder} alt="Foto render" width={480}/>
+                        <Image src={secondFounder} className='FouderImg' alt="Foto render" width={480}/>
                     </div>
                 </div>
             </div>

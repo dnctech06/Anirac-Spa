@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-import style from './carrocel.css';
+import style from './Carrocel.css';
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';

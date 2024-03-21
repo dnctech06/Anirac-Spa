@@ -12,9 +12,9 @@
     align-items: center;
     background: var(--um);
     background: var(--dois-s);
-    padding: 2rem 0px 2rem 0px;
     justify-content: space-around;
 }
+
 
 .secondfounder {
     display: flex;
@@ -22,18 +22,26 @@
     align-items: center;
     background: var(--tres);
     background: var(--quatro-s);
-    padding: 2rem 0px 7rem 0px;
     justify-content: space-around;
     color: #436A11;
     
 
 }
 
+
+.FouderImg{
+    max-width: 100%;
+}
 .aboutText {
     padding: 20px 8px 20px 8px;
     font-size: 1.5rem;
     font-family: "Montserrat", sans-serif;
     
+}
+
+.aboutText p{
+    text-align: justify;
+    padding: 10px;
 }
 
 .FouderImage {
@@ -42,6 +50,9 @@
     margin-top: 9rem;
 }
 
+.FouderImageLimit{
+
+}
 
 @media screen and (max-width: 850px) {
     .firstfounder {

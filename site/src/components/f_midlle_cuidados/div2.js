@@ -46,11 +46,8 @@ function Div() {
         <h1>Cuidados</h1>
         <h1>Laser</h1>
         <h1>System</h1>
-        <h1></h1>
       </div>
-
       {/* HOMEM */}
-
       {info === true && (
         <section className="valores">
           <h2>Depilação Laser System</h2>
@@ -140,9 +137,7 @@ function Div() {
           </div>
         </section>
       )}
-
       {/* MULHER */}
-
       {info === true && (
         <section className="valores">
           <h2>Depilação Laser System</h2>
@@ -224,7 +219,6 @@ function Div() {
           </div>
         </section>
       )}
-
       {info === true && (
         <section className="valores">
           <h2>Depilação Laser System</h2>
@@ -265,7 +259,6 @@ function Div() {
           <div className="discription">
             <p>Glúteos</p> <pre> </pre> <p>{v45}</p>
           </div>
-
           {/* Rejuvenescimento */}
           <h2>Laser System</h2>
           <h4>Rejuvenescimento</h4>

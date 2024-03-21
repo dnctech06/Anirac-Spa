@@ -44,7 +44,6 @@ function Div() {
         <h1>Cuidados</h1>
         <h1>Corpo </h1>
         <h1>Completo </h1>
-        <h1></h1>
       </div>
 
       {/* <h2>Tratamentos de rosto </h2> */}

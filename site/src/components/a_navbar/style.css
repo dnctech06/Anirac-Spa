@@ -34,7 +34,12 @@
     text-decoration: none;
     color: var(--verdeLetra);
     font-weight: 600;
+}
 
+.lks:hover {
+    text-shadow: 4px 3px 12px rgba(61,197,33,0.72);
+    border-top: 1px solid var(--verdeLetra);
+    border-bottom: 1px solid var(--verdeLetra);
 }
 
 .navbar_links {

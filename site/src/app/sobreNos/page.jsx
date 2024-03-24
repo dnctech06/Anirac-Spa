@@ -1,4 +1,5 @@
 "use client";
+import '../../../public/js/cookie';
 import Navbar from '@/components/a_navbar';
 import MidllleSobreNos from '@/components/g_midle_sobreNos';
 import Footer from '@/components/c_footer';

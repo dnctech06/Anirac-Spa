@@ -115,7 +115,6 @@ h4 {
 .Full_service_div3 p,
 .Full_service_div4 p {
     font-size: 1.3rem;
-
 }
 
 
@@ -138,7 +137,9 @@ h4 {
     display: flex
 }
 
-
+.discription p{
+    padding: 0.5rem;
+}
 
 .Full_MidllleCuidados {
     display: flex;

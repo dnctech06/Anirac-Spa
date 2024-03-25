@@ -33,7 +33,7 @@ const Footer = (props) => {
                     </div>
                 </div>
             </div>
-            <p className='footer_end'>Contruído por Tech06 - DNC ®All rights reserved</p>
+            <p className='footer_end'>Construído por Tech06 - DNC ®All rights reserved</p>
 
 
         </main>

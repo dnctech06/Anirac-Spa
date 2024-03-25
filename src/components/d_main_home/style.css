@@ -20,7 +20,7 @@
 }
 
 .txt p{
-    text-align:justify;
+    text-align:left;
     max-width: 40rem;
     font-size: 1.3rem;
 }

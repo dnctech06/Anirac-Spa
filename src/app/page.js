@@ -4,7 +4,7 @@ import style from './style.css';
 import Navbar from '@/components/a_navbar';
 import MainHome from '@/components/d_main_home';
 import Footer from '@/components/c_footer';
-import Carrossel from '@/components/b_header_carrossel/Carrocel';
+import Carrossel from '@/components/b_header_carrossel';
 
 
 

@@ -51,8 +51,23 @@ A integração com o Notiflix permite exibir notificações contextuais, como al
 ### Arquitetura do Projeto
 O Projeto Anirac é desenvolvido utilizando Next.js, um framework React que facilita a construção de aplicativos web. A arquitetura do projeto é organizada e modular, seguindo as melhores práticas de desenvolvimento.
 
+
+## Depêndencias utilizadas
+
+| Pacote             | Versão     | Comando de Instalação     | 
+| next               | ^14.1.4    | `npm install next`        | 
+| @formspree/react   | ^2.5.1     | `npm install @formspree/react` |
+| notiflix           | ^3.2.7     | `npm install notiflix`    | 
+| react              | ^18.2.0    | `npm install react`       | 
+| react-dom          | ^18.2.0    | `npm install react-dom`   | 
+| react-slick        | ^0.30.2    | `npm install react-slick` | 
+| slick-carousel     | ^1.8.1     | `npm install slick-carousel` | 
+| eslint             | ^8         | `npm install eslint`      | 
+
+
+
 ## Membros do projeto Anirac
-#### Gabriel
-#### Matheus
-#### Eduardo
-#### Alysson
+#### Gabriel Brandolt - gabrielbrandolt55@gmail.com
+#### Matheus Nascimento - matheuscrnascimento@gmail.com
+#### Eduardo Lima - dudulima2005@hotmail.com
+#### Alysson Santos - allyssonsanttos321@gmail.com

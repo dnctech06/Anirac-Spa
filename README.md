@@ -7,7 +7,7 @@
 #### git clone https://github.com/dnctech06/Anirac-Spa.git
 
 2- Navegue até o diretório do projeto:
-#### cd Anirac
+#### cd Anirac-Spa
 
 3- Instale as dependências do projeto:
 #### npm install

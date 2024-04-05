@@ -4,7 +4,6 @@ import FaceColor from '../../assets/img/servicos/FaceColor.png';
 import InstaColor from '../../assets/img/servicos/InstaColor.png';
 import Link from 'next/link';
 
-
 const Navbar = () => {
     return (
         <div className='Full_navbar'>

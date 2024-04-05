@@ -1,39 +1,48 @@
 @import url(../../app/globals.css);
 
+
+.FullHeader h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: var(--cinzaletra);
+    background-color: var(--Fundo);
+}
+
 #secaoImagem {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    gap: 4rem;
     height: 600px;
-    background: var(-tres);
-    background: var(-tres-s);
+    background-color: var(--Fundo);
+    border: solid black 2px;
 }
 
-#image {
-    align-self: center;
-    margin-top: 4rem;
-    
-}
+
 
 .img1 {
+    margin-top: 1rem;
     width: 28rem;
-    height: 26rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 9px 23px 0px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 9px 23px 0px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 9px 23px 0px rgba(0, 0, 0, 0.62);
 }
 
 #text-imagem {
     justify-content: center;
     text-align: justify;
     align-items: center;
-    padding: 30px;
-    max-width: 100%;
     flex-wrap: wrap;
     max-width: 45rem;
     max-height: 30rem;
     font-family: "Montserrat", sans-serif;
-    color: #436A11;
-    margin-top: 80px;
+    color: var(--cinzaletra);
+    margin-top: 10px;
+    border: solid red 2px;
 
 }
 
@@ -43,13 +52,16 @@
     max-width: 100%;
     width: auto;
     text-align: center;
+    color: var(--verdeletra);
+
 }
 
 #text-imagem p {
     font-size: 1.5rem;
     line-height: 35px;
     max-width: 100%;
-
+    border: solid rgb(25, 0, 255) 2px;
+    padding: .5rem;
 }
 
 
@@ -60,9 +72,7 @@
         flex-direction: column;
     }
 
-    #image {
-        display: none;
-    }
+    #image {}
 
 
 

@@ -4,6 +4,7 @@
 .txtCuidados{
   text-align: center;
   padding: 1rem 0rem 1rem 0rem;
+  background-color: var(--Fundo);
 }
 
 .txtCuidados h2{
@@ -16,7 +17,7 @@
 
 .linkCuidadosTitle{
   text-decoration: none;
-  color: #436A11 ;
+  color:var(--amareloletra) ;
 }
 
 .estilo {

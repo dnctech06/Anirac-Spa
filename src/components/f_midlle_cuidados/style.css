@@ -1,8 +1,7 @@
 @import url(../../app//globals.css);
 
 body {
-    background: var(--tres);
-    background: var(--tres-s);
+    background-color: var(--Fundo);
 }
 
 .Full_service {
@@ -13,7 +12,7 @@ body {
     background-position: center;
     display: flex;
     align-self: center;
-    color: rgb(97, 244, 117);
+    color: var(--amareloletra);
     max-width: 100%;
     max-height: 100%;
     justify-content: space-around;
@@ -22,7 +21,7 @@ body {
     
 }
 
-.Full_service_div2 {
+/* .Full_service_div2 {
     width: 100%;
     height: auto;
     background-image: url(../../assets/img/servicos/laser1.svg);
@@ -36,7 +35,7 @@ body {
     flex-wrap: wrap;
     cursor: pointer;
 }
-
+ */
 .Full_service_div3 {
     width: 100%;
     height: auto;
@@ -45,7 +44,7 @@ body {
     background-position: center;
     display: flex;
     align-self: center;
-    color: rgb(97, 244, 117);
+    color: bisque;
     max-width: 100%;
     max-height: 100%;
     justify-content: space-around;
@@ -62,7 +61,8 @@ body {
     background-position: center;
     display: flex;
     align-self: center;
-    color: rgb(97, 244, 117);
+    color: var(--amareloletra);
+
     max-width: 100%;
     max-height: 100%;
     justify-content: space-around;
@@ -103,11 +103,14 @@ body {
 
 .Full_service h2,
 .Full_service_div2 h2,
-.Full_service_div3 h2,
 .Full_service_div4 h2,
 h4 {
     font-size: 1.9rem;
     color: bisque;
+}
+
+.Full_service_div3 h2{
+    color: var(--amareloletra);
 }
 
 .Full_service p,

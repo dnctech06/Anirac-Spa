@@ -1,30 +1,40 @@
-import Image from 'next/image';
 import style from './style.css';
-
-import image2 from '../../assets/img/espaco/10.png';
-import image1 from '../../assets/img/espaco/colagem.png';
+import Image from 'next/image';
+import ambas from '../../assets/img/fundadoras/ambas.JPG'
 
 const Header = () => {
     return (
-        <main>
-
+        <main className='FullHeader'>
             <div id="secaoImagem">
                 <div id="text-imagem">
-                    
-                    <h2>Quem somos?</h2>
-                    <p>A Anirac é uma empresa dedicada ao ramo de estética e bem-estar.
-                        Fundada há um ano e meio e com sede em Braga-Portugal, veio da
-                        idealização de duas mulheres chamadas Carina. A empresa busca
-                        proporcionar aos clientes uma experiência única, as sócias, uma
-                        especializada na parte estética e a outra focada em terapias holíticas,
-                        dividem suas funções para oferecer uma gama variadade serviços.
+                    <h2>SOBRE NÓS</h2>
+                    <p>Amamos o que fazemos e sempre
+                        fazemos mais do que aquilo que é
+                        esperado.
+                        Temos muito orgulho na qualidade
+                        dos nossos serviços.
+                        Somos administradas por nós,
+                        movidas pela paixão de cuidar do
+                        outro e sempre em busca de algo
+                        novo para inovar.
+                        É neste servir de alma com os
+                        nossos clientes que formamos
+                        relacionamentos de longo prazo, pois
+                        a felicidade deles é a nossa
+                        felicidade.
+                        O nosso negócio foi criado com base
+                        no cuidar de corpo, mente e alma,
+                        pois tudo faz parte do mesmo
+                        individuo e é esta grande conjugação
+                        que nos torna tão fortes.
                     </p>
                 </div>
                 <div id="image">
-                    <Image src={image1} className={"img1"} alt="Error" />
+                    <Image src={ambas} className={"img1"} alt="Error" />
 
                 </div>
             </div>
+            <h1>As Carinas Barbosas</h1>
         </main>
     )
 }

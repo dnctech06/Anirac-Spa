@@ -5,10 +5,9 @@
 
 .footer {
     text-align: center;
-    color: black;
+    color: var(--cinzaletra);
     font-weight: 600;
-    background: var(--tres);
-    background: var(--tres-s);
+    background-color: var(--Fundo);
     max-width: 100%;
     flex-wrap: wrap;
 
@@ -37,9 +36,6 @@
     
 }
 
-
-
-
 .localization h4 {
     color: var(--verdeLetra);
     font-size: 2rem;
@@ -56,12 +52,24 @@
 }
 
 .footer_links {
-    margin-top: 2rem;
-    display: flex;
-    gap: 1.5rem;
+    flex-direction: column;
     max-width: 100%;
     flex-wrap: wrap;
+}
 
+.lks_out{
+    width: 40px;
+    height: 40px;
+}
+
+.styleLksOut{
+    display: flex;
+    align-items: center;
+}
+
+.styleLksOut p{
+    font-size: 1,3rem;
+    padding-left: 10px;
 }
 
 @media screen and (max-width: 850px) {

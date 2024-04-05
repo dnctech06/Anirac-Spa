@@ -1,4 +1,4 @@
-const Valores = {
+/* const Valores = {
     v4: " - 4,00€",
     v5: " - 5,00€",
     v7: " - 7,00€",
@@ -36,4 +36,5 @@ const Valores = {
     v0150: " - 1,50€",
 };
 
-export default Valores;
+export default Valores; 
+ */

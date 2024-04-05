@@ -6,40 +6,52 @@
     max-width: 100%;
 }
 
+.lksHome{
+    text-decoration: none;
 
+}
 
 .Full_navbar {
-    display: flex;
     max-width: 100%;
     flex-wrap: wrap;
     padding: 0rem 2rem 0rem 2rem;
-    justify-content: space-between;
-    background: #F8F7F3;
+    background: var(--Fundo);
+}
+
+.Full_navbar h1 {
+    text-align: center;
+    font-size: 4.2rem;
+    color: var(--verdeletra);
+}
+
+.Full_navbar h2 {
+    text-align: center;
+    color: var(--amareloletra);
+
 }
 
 .navbar_btn {
     display: flex;
     gap: 5rem;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     max-width: 100%;
     flex-wrap: wrap;
     align-items: center;
     text-decoration: none;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 1.5rem 1rem 0rem 1rem;
     font-family: "Gabriela", serif;
-    
+    justify-content: center ;
 }
 
 .lks {
     text-decoration: none;
-    color: var(--verdeLetra);
+    color: var(--cinzaletra);
+
     font-weight: 600;
 }
 
 .lks:hover {
-    text-shadow: 4px 3px 12px rgba(61,197,33,0.72);
-    border-top: 1px solid var(--verdeLetra);
-    border-bottom: 1px solid var(--verdeLetra);
+    text-shadow: 4px 3px 12px rgba(61, 197, 33, 0.72);
 }
 
 .navbar_links {
@@ -53,11 +65,18 @@
 
 
 .lks_out {
-    width: 2.5rem;
-    height: 2.5rem;
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
     flex-wrap: wrap;
 
 }
+
+.lks_out:hover {
+    filter: invert(60%);
+}
+
+
 
 
 @media screen and (max-width: 1215px) {
@@ -74,7 +93,6 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 2.6rem;
         gap: 1.5rem;
 
     }
@@ -84,20 +102,17 @@
         flex-direction: row;
         text-align: center;
         justify-content: space-around;
-        font-size: 2.6rem;
         gap: 1.5rem;
     }
 
     .navbar_links {
         justify-content: center;
         padding: 1rem 0pc 1rem 0px;
+
     }
 
     .lks_out {
-        width: 4rem;
-        height: 4rem;
         flex-wrap: wrap;
-
     }
 
 }
@@ -119,5 +134,3 @@
         gap: 1.2rem;
     }
 }
-
-

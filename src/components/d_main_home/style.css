@@ -1,52 +1,64 @@
 @import url(../../app//globals.css);
 
 .whoWeAre {
-    display: flex;
-    background: var(--um-s);
-    justify-content: space-around;
-    padding-bottom: 6rem;
-    padding-top: 2rem;
-    
+    background: var(--Fundo);
+
 }
 
 .txt {
-    color: rgb(255, 225, 210);
-    align-items: center;
-    text-align: center;
+    color: var(--cinzaletra);
     font-size: 25px;
-    padding: 3rem 1rem 5rem 1rem;
+    padding: 1rem 1rem 0rem 1rem;
     font-family: "Montserrat", sans-serif;
-    margin-top: 5rem;
+    margin-top: 2rem;
+
+}
+
+.imgFrase h3{
+    text-align: center;
+    color: var(--amareloletra);
+
+}
+
+.txt h2{
+    text-align: center;
+    font-size: 4rem;
+    max-width: 100%;
 }
 
 .txt p{
-    text-align:left;
-    max-width: 40rem;
-    font-size: 1.3rem;
-}
-
-.whoWeAre>div {
-    padding: 0.5rem;
+    max-width: 60rem;
+    font-size: 1.5rem;
+    margin: auto;
 
 }
+
+
 
 .imageswho {
     text-align: center;
-    margin-top: 3.5rem;
     max-width: 100%;
     pad: 1.5rem;
-    margin-top: 8rem;
+
 }
 
 .ImgWho{
     max-width: 100%;
-    width: 28rem;
-    height: 26rem;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 850px) {
     .whoWeAre {
         display: flex;
         flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .txt h2 {
+        font-size: 11.5vw;
     }
 }

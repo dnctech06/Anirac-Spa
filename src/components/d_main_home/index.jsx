@@ -1,32 +1,32 @@
 import Image from 'next/image';
 import style from './style.css';
-import Foto1 from '../../assets/img/espaco/colagem.png';
+import Flor from '../../assets/img/servicos/flor.jpg';
 
 
 const MainHome = () => {
     return (
         <main>
             <div className='whoWeAre'>
-                <div className='txt'>
-                    <h2>Quem somos?</h2><br /><br />
-                    <p>Corpo mente e alma, este é o nosso lema.
-                        Tratamos o individuo como um todo.
-                        O nosso espaço oferece diversos serviços,
-                        massagens terapêuticas, massagens bem estar,
-                        massagens orientais, osteopatia, osteopatia pediátrica,
-                        mesoterapia, tratamentos estéticos, estética avançada,
-                        drenagem linfática, hidrolinfa, lifting pestanas,
-                        tratamentos de rosto, limpeza de pele profunda,
-                        pedicure, manicure, gel e verniz de gel, reflexologia,
-                        Reik com toque terapêutico.</p>
-
-                </div>
-
                 <div className='imageswho'>
-                    <div>
-                        <Image id='foto1' className='ImgWho' src={Foto1} alt="Foto render" />
+                    <div className='imgFrase'>
+                        <Image id='foto1' className='ImgWho' src={Flor} alt="Foto render" />
+                        <h3>navega por todas as possibilidades que poderes colher para ti</h3>
 
                     </div>
+                </div>
+                <div className='txt'>
+                    <h2>COMPROMISSO</h2><br /><br />
+                    <p>O bem-estar é a nossa prioridade. Embelezar e
+                        cuidar do corpo, da mente e da alma. Aqui vais
+                        recuperar e acrescentar mais auto-estima, mais
+                        força pessoal, mais reconhecimento da pessoa
+                        incrível que és. Cada pessoa é única e deve ser
+                        tratada de forma personalizada, dentro da Anirac
+                        não existe uma religião, todos somos a religião.
+                        Verdade, honestidade, privacidade.
+                        Não conseguimos mudar/curar o mundo todo,
+                        mas conseguimos uma pessoa de cada vez.
+                    </p>
                 </div>
             </div>
         </main>

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import FotoAbout from '../../assets/img/espaco/1.jpg';
-import firstFounder from '../../assets/img/espaco/23.svg'
-import secondFounder from '../../assets/img/espaco/23.svg'
+import firstFounder from '../../assets/img/fundadoras/anaCarina.JPG'
+import secondFounder from '../../assets/img/fundadoras/susanaCarina.JPG'
 
 import style from './style.css';
 
@@ -11,47 +11,36 @@ const MidllleSobreNos = () => {
             <div>
                 <div className='firstfounder'>
                     <div className='FouderImage'>
-                    <Image src={firstFounder} className='FouderImg' alt="Foto render" width={480}/>
-                        
+                        <Image src={firstFounder} className='FouderImg' alt="Foto render" width={480} />
+
                     </div>
                     <div className='aboutText'>
-                        
-                        <h3>Primeira fundadora</h3><br />
-                        <p>Lorem Ipsum is simply dummy text of the <br />
-                        printing and typesetting industry. Lorem Ipsum <br />
-                        has been the industry's standard dummy text <br />
-                        ever since the 1500s, when an unknown printer <br />
-                        took a galley of type and scrambled it to make <br />
-                        a type specimen book. It has survived not only <br />
-                        five centuries, but also the leap into electronic <br />
-                        typesetting, remaining essentially unchanged. <br />
-                        It was popularised in the 1960s with the release <br />
-                        of Letraset sheets containing Lorem Ipsum passages, <br />
-                        and more recently with desktop publishing software <br />
-                        like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        
+                        <h3>ANA CARINA</h3>
+                        <p>A cada formação e atendimento feito
+                            aprimora ainda mais a sua paixão pela
+                            estética como auto-cuidado e devolução
+                            de auto-estima aprimora ainda mais a sua
+                            paixão pela estética como auto-cuidado e
+                            devolução de auto-estima.
+                        </p>
                     </div>
                 </div>
                 <div className='secondfounder'>
                     <div className='aboutText'>
-                    
-                        <h3>Segunda fundadora</h3><br />
-                        <p>Lorem Ipsum is simply dummy text of the <br />
-                        printing and typesetting industry. Lorem Ipsum <br />
-                        has been the industry's standard dummy text <br />
-                        ever since the 1500s, when an unknown printer <br />
-                        took a galley of type and scrambled it to make <br />
-                        a type specimen book. It has survived not only <br />
-                        five centuries, but also the leap into electronic <br />
-                        typesetting, remaining essentially unchanged. <br />
-                        It was popularised in the 1960s with the release <br />
-                        of Letraset sheets containing Lorem Ipsum passages, <br />
-                        and more recently with desktop publishing software <br />
-                        like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                        <h3>SUSANA CARINA</h3><br />
+                        <p>
+                            Apaixonada pelo autoconhecimento e
+                            viciada por decifrar a história de cada corpo,
+                            auxilia na tomada de consciência de cada
+                            um, como uma forma de orientação para a
+                            libertação de cada individuo.
+
+                        </p>
 
                     </div>
                     <div className='FouderImage'>
-                        <Image src={secondFounder} className='FouderImg' alt="Foto render" width={480}/>
+                        <Image src={secondFounder} className='FouderImg' alt="Foto render" width={480} />
                     </div>
                 </div>
             </div>

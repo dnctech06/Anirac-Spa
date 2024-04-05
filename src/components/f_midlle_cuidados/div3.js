@@ -54,7 +54,7 @@ function Div() {
             <pre> </pre> <p>{Valores.v35}</p>
           </div>
           <div className="discription">
-            <p>Thai Yoga Massage 50</p> <pre> </pre> <p>{Valores.v50}</p>
+            <p>Thai Yoga Massage 50'</p> <pre> </pre> <p>{Valores.v50}</p>
           </div>
           <div className="discription">
             <p>Shiatsu 1ª sessão 90'</p> <pre> </pre> <p>{Valores.v60}</p>
@@ -63,7 +63,7 @@ function Div() {
             <p>Shiatsu sessões seguintes 45'</p> <pre> </pre> <p>{Valores.v35}</p>
           </div>
           <div className="discription">
-            <p>Massagem a 4 mãos 30 </p> <pre> </pre> <p>{Valores.v50}</p>
+            <p>Massagem a 4 mãos 30' </p> <pre> </pre> <p>{Valores.v50}</p>
           </div>
           <div className="discription">
             <p>Massagem Relaxante a Dois 50'</p> <pre> </pre> <p>{Valores.v80}</p>
@@ -106,11 +106,11 @@ function Div() {
             <pre> </pre> <p>{Valores.v55}</p>
           </div>
           <div className="discription">
-            <p>Retlexologia Auricular - A partir de</p>
+            <p>Retlexologia Auricular </p>
             <pre> </pre> <p>{Valores.v5}</p>
           </div>
           <div className="discription">
-            <p>Bandas neuromusculares - A partir de</p>
+            <p>Bandas neuromusculares </p>
             <pre> </pre> <p>{Valores.v5}</p>
           </div>
         </section>

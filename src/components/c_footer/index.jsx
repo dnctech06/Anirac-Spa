@@ -1,8 +1,8 @@
 import style from './style.css';
 import Image from 'next/image';
 
-import FaceColor from '../../assets/img/servicos/FaceColor.png';
-import InstaColor from '../../assets/img/servicos/InstaColor.png';
+import FaceBlack from '../../assets/img/servicos/FaceBlack.png';
+import InstaBlack from '../../assets/img/servicos/InstaBlack.png';
 const endereco = 'Travessa do Teixeirinha RC n23';
 const cep = '4750-336 Barcelos';
 const telefone1 = '935689094 Carina Barbosa';
@@ -28,8 +28,14 @@ const Footer = (props) => {
                     <h4>{telefone2}</h4>
                     <strong><p>(custo chamada móvel nacional)</p></strong>
                     <div className='footer_links'>
-                        <a target="_blank" href="https://www.instagram.com/aniracspa/?igsh=aWthaDhzN3g4ZDNz"><Image className='lks_out' src={InstaColor} alt="Foto logo" /></a>
-                        <a target="_blank" href="https://m.facebook.com/profile.php/?id=100083463273920"><Image className='lks_out' src={FaceColor} alt="Foto logo" /></a>
+                        <div className="styleLksOut">
+                            <a target="_blank" href="https://www.instagram.com/aniracspa/?igsh=aWthaDhzN3g4ZDNz"><Image className='lks_out' src={InstaBlack} alt="Foto logo" /></a><p> @aniracspa
+                            </p>
+                        </div>
+                        <div className="styleLksOut">
+                            <a target="_blank" href="https://m.facebook.com/profile.php/?id=100083463273920"><Image className='lks_out' src={FaceBlack} alt="Foto logo" /></a><p> /aniracspa </p> 
+
+                        </div>
                     </div>
                 </div>
             </div>

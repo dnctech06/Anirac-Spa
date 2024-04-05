@@ -18,6 +18,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     cursor: pointer;
+
     
 }
 
@@ -81,7 +82,8 @@ body {
 }
 
 .Title_FullBody h1{
-    font-family: "Gabriela", serif;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -98,6 +100,7 @@ body {
     font-size: 2.5rem;
     padding: 0.25rem;
     align-self: center;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -107,10 +110,14 @@ body {
 h4 {
     font-size: 1.9rem;
     color: bisque;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .Full_service_div3 h2{
     color: var(--amareloletra);
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .Full_service p,
@@ -118,6 +125,8 @@ h4 {
 .Full_service_div3 p,
 .Full_service_div4 p {
     font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -132,7 +141,8 @@ h4 {
     max-height: 100%;
     gap: 0.5rem;
     padding: 1rem 0px 1rem 0px;
-    font-family: "Gabriela", serif;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 

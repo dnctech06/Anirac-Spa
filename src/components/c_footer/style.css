@@ -6,11 +6,9 @@
 .footer {
     text-align: center;
     color: var(--cinzaletra);
-    font-weight: 600;
     background-color: var(--Fundo);
     max-width: 100%;
     flex-wrap: wrap;
-
 }
 
 .footer_info {
@@ -32,23 +30,31 @@
     padding-left: 1rem;
     max-width: 100%;
     flex-wrap: wrap;
-    font-family: "Gabriela", serif;
-    
+    font-family: 'Arimo', sans-serif;
 }
 
-.localization h4 {
-    color: var(--verdeLetra);
-    font-size: 2rem;
+.localization p {
+    font-size: 1.5rem;
+    font-weight: 100;
     max-width: 100%;
+    font-family: 'Arimo', sans-serif;
+}
 
+.localization strong p {
+    font-size: 1.2rem;
+   
 }
 
 .mapa {
-    border-style: dotted;
+    border-style: none;
     width: 20rem;
     height: 20rem;
     max-width: 100%;
     max-height: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 9px 23px 0px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 9px 23px 0px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 9px 23px 0px rgba(0, 0, 0, 0.62);
 }
 
 .footer_links {
@@ -70,6 +76,8 @@
 .styleLksOut p{
     font-size: 1,3rem;
     padding-left: 10px;
+    font-family: 'Arimo', sans-serif;
+
 }
 
 @media screen and (max-width: 850px) {

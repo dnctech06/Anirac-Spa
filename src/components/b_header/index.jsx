@@ -5,8 +5,8 @@ import ambas from '../../assets/img/fundadoras/ambas.JPG'
 const Header = () => {
     return (
         <main className='FullHeader'>
-            <div id="secaoImagem">
-                <div id="text-imagem">
+            <div className="secaoImagem">
+                <div className="text-imagem">
                     <h2>SOBRE NÓS</h2>
                     <p>Amamos o que fazemos e sempre
                         fazemos mais do que aquilo que é
@@ -29,7 +29,7 @@ const Header = () => {
                         que nos torna tão fortes.
                     </p>
                 </div>
-                <div id="image">
+                <div className="image">
                     <Image src={ambas} className={"img1"} alt="Error" />
 
                 </div>

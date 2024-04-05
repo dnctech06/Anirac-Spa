@@ -22,10 +22,10 @@ const Footer = (props) => {
                     </iframe>
                 </div>
                 <div className='localization'>
-                    <h4>{endereco}</h4>
-                    <h4>{cep}</h4>
-                    <h4>{telefone1}</h4>
-                    <h4>{telefone2}</h4>
+                    <p>{endereco}</p>
+                    <p>{cep}</p>
+                    <p>{telefone1}</p>
+                    <p>{telefone2}</p>
                     <strong><p>(custo chamada móvel nacional)</p></strong>
                     <div className='footer_links'>
                         <div className="styleLksOut">

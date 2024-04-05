@@ -52,10 +52,8 @@ textarea::placeholder, input::placeholder{
     font-family: Nova Square;
     font-weight: bolder;
     background: transparent;
-    color: var(--verdeLetra);
     border: none;
-    border-bottom: 2px solid var(--verdeLetra);
-    border-top: 2px solid var(--verdeLetra);
+    
 
     cursor: pointer;
     

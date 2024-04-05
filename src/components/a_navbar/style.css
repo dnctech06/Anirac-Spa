@@ -22,12 +22,13 @@
     text-align: center;
     font-size: 4.2rem;
     color: var(--verdeletra);
+    font-family: 'Cormorant Infant', serif;
 }
 
 .Full_navbar h2 {
     text-align: center;
     color: var(--amareloletra);
-
+    font-family: 'Cormorant Infant', serif;
 }
 
 .navbar_btn {
@@ -39,7 +40,7 @@
     align-items: center;
     text-decoration: none;
     padding: 1.5rem 1rem 0rem 1rem;
-    font-family: "Gabriela", serif;
+    font-family: 'Montserrat', sans-serif;
     justify-content: center ;
 }
 

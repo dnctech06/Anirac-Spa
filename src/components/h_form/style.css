@@ -1,8 +1,7 @@
 @import url(../../app/globals.css);
 
 .Form{
-    background: var(--quatro);
-    background: var(--quatro-s);
+    background-color: var(--Fundo);
     display: flex;
     justify-content: center;
     

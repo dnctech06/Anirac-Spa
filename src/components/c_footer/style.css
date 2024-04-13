@@ -1,5 +1,55 @@
 @import url(../../app/globals.css);
 
+.Subs {
+    height: 12rem;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+
+.Form_full_call_subs input {
+    border: solid 1px black;
+    width: 20rem;
+    height: 30px;
+    font-size: 20px;
+    opacity: .4;
+}
+
+.Form_full_call_subs label {
+    color: var(--verdeletra);
+    font-size: 1.5rem;
+}
+
+.btn_subs {
+    width: 8rem;
+    height: 2.3rem;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    color: var(--Ouro);
+    background-color: var(--Fundo);
+    cursor: pointer;
+}
+
+.btn_subs:hover {
+    color: var(--Fundo);
+    background-color: var(--Ouro);
+}
+
+.msn_send_sub {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--verdeletra);
+    background-color: var(--Fundo);
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -14,11 +64,10 @@
 .footer_info {
     display: flex;
     justify-content: space-around;
-    padding:  3rem 6rem 6rem 6rem;
+    padding: 3rem 6rem 6rem 6rem;
     text-align: left;
     max-width: 100%;
     flex-wrap: wrap;
-    
 }
 
 
@@ -31,6 +80,7 @@
     max-width: 100%;
     flex-wrap: wrap;
     font-family: 'Arimo', sans-serif;
+
 }
 
 .localization p {
@@ -42,7 +92,7 @@
 
 .localization strong p {
     font-size: 1.2rem;
-   
+
 }
 
 .mapa {
@@ -63,38 +113,61 @@
     flex-wrap: wrap;
 }
 
-.lks_out{
+.footer_links p {
+    padding-top: 15px;
+}
+
+.lks_out {
     width: 40px;
     height: 40px;
 }
 
-.styleLksOut{
+.styleLksOut {
     display: flex;
     align-items: center;
 }
 
-.styleLksOut p{
-    font-size: 1,3rem;
+.styleLksOut p {
+    font-size: 1, 3rem;
     padding-left: 10px;
     font-family: 'Arimo', sans-serif;
 
 }
 
+.Time {
+    text-align: center;
+}
+
+
+.Time p {
+    font-size: 1.5rem;
+    color: var(--cinzaletra);
+    margin: 2px;
+}
+
+
+
 @media screen and (max-width: 850px) {
+
+    .Time {
+    margin-bottom: 4rem;
+
+    }
+
     .footer_info {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
     }
 
-    
-.localization {
-    font-size: 2rem;
-}
 
-.localization p {
-    font-size: 1.2rem;
-}
+    .localization {
+        font-size: 2rem;
+    }
+
+    .localization p {
+        font-size: 1.2rem;
+    }
 
     .footer_links {
         justify-content: center;
@@ -105,10 +178,13 @@
 }
 
 @media screen and (max-width: 500px) {
+
+
     .footer_info {
-        
         padding: 2rem;
-        
-        
+    }
+
+    .Subs {
+        padding: 8px;
     }
 }

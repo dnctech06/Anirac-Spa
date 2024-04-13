@@ -4,7 +4,6 @@ import style from "./style.css";
 import Massagem from "../../assets/img/espaco/linda-loira-recebendo-uma-massagem.jpg";
 import Valores from "./value";
 
-
 function Div() {
   const [info, setInfo] = useState(false);
 
@@ -25,7 +24,6 @@ function Div() {
         <h1></h1>
       </div>
 
-      
       {info === true && (
         <section className="valores">
           {/* MASSAGENS */}
@@ -39,10 +37,7 @@ function Div() {
             <pre> </pre> <p>{Valores.v35}</p>
           </div>
           <div className="discription">
-            <p>Tui-na zona 40'</p> <pre> </pre> <p>{Valores.v40}</p>
-          </div>
-          <div className="discription">
-            <p>Lomi Lomi 60'</p>
+            <p>Lomi Lomi 70'</p>
             <pre> </pre> <p>{Valores.v45}</p>
           </div>
           <div className="discription">
@@ -60,19 +55,22 @@ function Div() {
             <p>Shiatsu 1ª sessão 90'</p> <pre> </pre> <p>{Valores.v60}</p>
           </div>
           <div className="discription">
-            <p>Shiatsu sessões seguintes 45'</p> <pre> </pre> <p>{Valores.v35}</p>
+            <p>Shiatsu sessões seguintes 45'</p> <pre> </pre>{" "}
+            <p>{Valores.v35}</p>
           </div>
           <div className="discription">
             <p>Massagem a 4 mãos 30' </p> <pre> </pre> <p>{Valores.v50}</p>
           </div>
           <div className="discription">
-            <p>Massagem Relaxante a Dois 50'</p> <pre> </pre> <p>{Valores.v80}</p>
+            <p>Massagem Relaxante a Dois 50'</p> <pre> </pre>{" "}
+            <p>{Valores.v80}</p>
           </div>
           <div className="discription">
-            <p>Massagem Lomi-Lomi a Dois 60'</p> <pre> </pre> <p>{Valores.v95}</p>
+            <p>Massagem Lomi-Lomi a Dois 70'</p> <pre> </pre>{" "}
+            <p>{Valores.v95}</p>
           </div>
 
-      {/* Tratamento Corpo*/}
+          {/* Tratamento Corpo*/}
 
           <h2>Tratamento Corpo</h2>
           <div className="discription">
@@ -80,33 +78,25 @@ function Div() {
             <pre> </pre> <p>{Valores.v40}</p>
           </div>
           <div className="discription">
-            <p>Drenagem Lintática Zona 35'</p> <pre> </pre> <p>{Valores.v20}</p>
+            <p>Drenagem Lintática com Rosto 75'</p>
+            <pre> </pre> <p>{Valores.v40}</p>
           </div>
           <div className="discription">
-            <p>Massagem Facial Drenante 25'</p>
+            <p>Drenagem Lintática Zona 30'</p> <pre> </pre> <p>{Valores.v20}</p>
+          </div>
+          <div className="discription">
+            <p>Massagem Facial Drenante 20'</p>
             <pre> </pre> <p>{Valores.v15}</p>
           </div>
           <div className="discription">
             <p>Massagem Silhueta Zona 35'</p> <pre> </pre> <p>{Valores.v25}</p>
           </div>
           <div className="discription">
-            <p>Esfoliação Corporal/ Hidratação 50'</p>
-            <pre> </pre> <p>{Valores.v35}</p>
-          </div>
-          <div className="discription">
-            <p>Tratamento anti celulitico Anirac 60'</p>
-            <pre> </pre> <p>{Valores.v45}</p>
-          </div>
-          <div className="discription">
             <p>Tratamentos Pernas Cansadas 40'</p>
             <pre> </pre> <p>{Valores.v30}</p>
           </div>
           <div className="discription">
-            <p>Rosto Completo</p>
-            <pre> </pre> <p>{Valores.v55}</p>
-          </div>
-          <div className="discription">
-            <p>Retlexologia Auricular </p>
+            <p>Reflexologia Auricular </p>
             <pre> </pre> <p>{Valores.v5}</p>
           </div>
           <div className="discription">
@@ -120,31 +110,42 @@ function Div() {
         <section className="valores">
           <h2>Mãos</h2>
           <div className="discription">
-            <p>Gel com Extensão Pequeno</p>
+            <p>Gel com Extensão</p>
             <pre> </pre> <p>{Valores.v25}</p>
           </div>
           <div className="discription">
-            <p>Gel com Extensão Grande</p> <pre> </pre> <p>{Valores.v27}</p>
-          </div>
-          <div className="discription">
-            <p>Manutenção Gel Pequeno</p> <pre> </pre> <p>{Valores.v19}</p>
-          </div>
-          <div className="discription">
-            <p>Manutenção Gel Grande</p> <pre> </pre> <p>{Valores.v21}</p>
+            <p>Manutenção Gel</p> <pre> </pre> <p>{Valores.v19}</p>
           </div>
           <div className="discription">
             <p>Verniz de gel</p> <pre> </pre> <p>{Valores.v13}</p>
           </div>
           <div className="discription">
-            <p>Remoção de gel</p>
+            <p>Manicure com Power Base</p> <pre> </pre> <p>{Valores.v13}</p>
+          </div>
+          <div className="discription">
+            <p>Remoção</p>
             <pre> </pre> <p>{Valores.v8}</p>
           </div>
           <div className="discription">
-            <p>Mãos de Seda</p> <pre> </pre> <p>{Valores.v10}</p>
+            <p>Nail Art</p>
+            <pre> </pre> <p>{Valores.v8}</p>
           </div>
           <div className="discription">
             <p>Arranjo de uma Unha</p> <pre> </pre> <p>{Valores.v0150}</p>
           </div>
+          <div className="discription">
+            <p>Manicure normal</p> <pre> </pre> <p>{Valores.v0150}</p>
+          </div>
+          <div className="discription">
+            <p>Mãos de Seda Spa</p> <pre> </pre> <p>{Valores.v10}</p>
+          </div>
+          <div className="discription">
+            <p>Manutenção gel c/ Mãos de Seda</p> <pre> </pre> <p>{Valores.v10}</p>
+          </div>
+          <div className="discription">
+            <p>Verniz de gel c/ Mãos de Seda</p> <pre> </pre> <p>{Valores.v10}</p>
+          </div>
+          
           {/* pés */}
           <h2>Pés</h2>
           <div className="discription">
@@ -162,12 +163,25 @@ function Div() {
             <pre> </pre> <p>{Valores.v10}</p>
           </div>
           <div className="discription">
+            <p>Ozonoterapia Podal</p>
+            <pre> </pre> <p>{Valores.v10}</p>
+          </div>
+          <div className="discription">
+            <p>Reconstrução de Unha</p>
+            <pre> </pre> <p>{Valores.v10}</p>
+          </div>
+          <div className="discription">
             <p>Verniz de Gel nos Pés</p> <pre> </pre> <p>{Valores.v10}</p>
           </div>
           <div className="discription">
-            <p>Pedicure completa c/ Verniz Gel</p>
+            <p>Pedicure Normal e completa c/ Verniz Gel</p>
             <pre> </pre> <p>{Valores.v25}</p>
           </div>
+          <div className="discription">
+            <p>Hidrolinfa Pack de 10</p>
+            <pre> </pre> <p>{Valores.v25}</p>
+          </div>
+          
         </section>
       )}
 
@@ -200,6 +214,9 @@ function Div() {
             <p>Design e Sobrancelha</p> <pre> </pre> <p>{Valores.v13}</p>
           </div>
           <div className="discription">
+            <p>Sobrancelha e Coloração</p> <pre> </pre> <p>{Valores.v13}</p>
+          </div>
+          <div className="discription">
             <p>Brow Lamination</p>
             <pre> </pre> <p>{Valores.v30}</p>
           </div>
@@ -210,7 +227,7 @@ function Div() {
           <h2>Limpeza de Pele</h2>
 
           <div className="discription">
-            <p>Limpeza Pele Mini Faciar</p> <pre> </pre> <p>{Valores.v20}</p>
+            <p>Limpeza Pele Mini Facial</p> <pre> </pre> <p>{Valores.v20}</p>
           </div>
           <div className="discription">
             <p>Limpeza Pele Normal </p> <pre> </pre> <p>{Valores.v30}</p>
@@ -218,10 +235,28 @@ function Div() {
           <div className="discription">
             <p>Limpeza Pele Profunda</p> <pre> </pre> <p>{Valores.v40}</p>
           </div>
+          <h2>Micropigmentação</h2>
+          <div className="discription">
+            <p>Consulta Avaliação</p> <pre> </pre> <p>{Valores.v18}</p>
+          </div>
+          <div className="discription">
+            <p>Sobrancelha </p> <pre> </pre> <p>{Valores.v18}</p>
+          </div>
+          <div className="discription">
+            <p>Lábios</p> <pre> </pre> <p>{Valores.v18}</p>
+          </div>
+          <h2>Extensão de Pestanas</h2>
+          <div className="discription">
+            <p>Clássica </p> <pre> </pre> <p>{Valores.v18}</p>
+          </div>
+          <div className="discription">
+            <p>Hibrida </p> <pre> </pre> <p>{Valores.v18}</p>
+          </div>
+          <div className="discription">
+            <p>Volume Russo</p> <pre> </pre> <p>{Valores.v18}</p>
+          </div>
         </section>
       )}
-
-
     </div>
   );
 }

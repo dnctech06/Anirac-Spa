@@ -93,11 +93,7 @@ function Div() {
             <p>Osteopatia Pediátrica</p> <pre> </pre> <p>{Valores.v45}</p>
           </div>
           <div className="discription">
-            <p>Massoterapia</p>
-            <pre> </pre> <p>{Valores.v45}</p>
-          </div>
-          <div className="discription">
-            <p>Terapia Sacrocraniana</p> <pre> </pre> <p>{Valores.v40}</p>
+            <p>Osteopatia Genecológica</p> <pre> </pre> <p>{Valores.v40}</p>
           </div>
           <h2>Harmonização Facial</h2>
 

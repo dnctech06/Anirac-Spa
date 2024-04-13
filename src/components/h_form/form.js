@@ -20,8 +20,10 @@ export default function ContactForm() {
       <label htmlFor="telefone">Telefone</label>
       <input  placeholder="___-___-___" id="telefone" type="telefone" name="telefone" />
 
+      <label htmlFor="hora">Horáros</label>
+      <input  placeholder="00:00" id="hora" type="hora" name="hora" />
      
-        <label>Dúvidas ou Sugestões*</label>
+        <label>Dúvidas sobre Procedimentos*</label>
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <textarea required className="txt_areaCall" placeholder="partilhe aqui a sua dúvida ou sugestão..." id="ds" name="ds" />
       <ValidationError prefix="ds" field="ds" errors={state.errors} />

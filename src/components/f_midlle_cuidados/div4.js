@@ -2,9 +2,7 @@ import { useState } from "react";
 
 import style from "./style.css";
 import Massagem from "../../assets/img/espaco/linda-loira-recebendo-uma-massagem.jpg";
-import Valores from "./value"
-
-
+import Valores from "./value";
 
 function Div() {
   const [info, setInfo] = useState(false);
@@ -44,12 +42,10 @@ function Div() {
         </section>
       )}
 
-          {/* MASSAGENS */}
+      {/* MASSAGENS */}
 
       {info === true && (
         <section className="valores">
-
-
           <h2>Massagens</h2>
 
           <div className="discription">
@@ -68,8 +64,25 @@ function Div() {
             <pre> </pre> <p>{Valores.v60}</p>
           </div>
 
+          <h2>Sob Cunsulta</h2>
           <div className="discription">
-            <p>info gerais</p> <pre> </pre> <p>{Valores.v50}</p>
+            <p>Hipnoterapia</p> <pre> </pre> <p>{Valores.v100}</p>
+          </div>
+          <div className="discription">
+            <p>Mesa Radiónica</p>
+            <pre> </pre> <p>{Valores.v75}</p>
+          </div>
+          <div className="discription">
+            <p>Constelações Familiares</p>
+            <pre> </pre> <p>{Valores.v60}</p>
+          </div>
+          <div className="discription">
+            <p>Mapa Astral</p>
+            <pre> </pre> <p>{Valores.v60}</p>
+          </div>
+          <div className="discription">
+            <p>Massagem de Som</p>
+            <pre> </pre> <p>{Valores.v60}</p>
           </div>
         </section>
       )}

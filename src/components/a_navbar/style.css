@@ -8,8 +8,9 @@
 
 .lksHome{
     text-decoration: none;
-
 }
+
+
 
 .Full_navbar {
     max-width: 100%;
@@ -20,14 +21,15 @@
 
 .Full_navbar h1 {
     text-align: center;
-    font-size: 4.2rem;
+    font-size: 4.5rem;
     color: var(--verdeletra);
     font-family: 'Cormorant Infant', serif;
 }
 
 .Full_navbar h2 {
+    font-size: 1.9rem;
     text-align: center;
-    color: var(--amareloletra);
+    color:var(--Ouro);
     font-family: 'Cormorant Infant', serif;
 }
 
@@ -46,7 +48,7 @@
 
 .lks {
     text-decoration: none;
-    color: var(--cinzaletra);
+    color: var(--verdeletra);
 
     font-weight: 600;
 }

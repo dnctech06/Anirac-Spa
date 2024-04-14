@@ -1,6 +1,22 @@
 @import url(../globals.css);
 
 
+.TesteTitle{
+    background-color: var(--RosaClaro);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TesteTitle h1{
+    text-align: center;
+    color: var(--verdeletra);
+    padding: 0rem 3rem 0rem 3rem;
+    font-family: 'Cormorant Infant', serif;
+
+}
+
 .ImgCardTest {
     width: 36rem;
     height: 16rem;
@@ -47,13 +63,14 @@
 .sectionTwo h1,
 .sectionThree h1 {
     color: var(--Ouro);
-    font-family: Open Sans;
     font-size: 1.5rem;
     font-weight: 800;
     line-height: 33px;
     letter-spacing: 0em;
     text-align: left;
     width: auto;
+    font-family: 'Cormorant Infant', serif;
+
 }
 
 
@@ -108,7 +125,6 @@
 
 
     .sectionTwo h1 {
-        font-family: Open Sans;
         font-size: 40px;
         font-weight: 800;
         line-height: 54px;
@@ -150,7 +166,6 @@
 
 
     .sectionThree h1 {
-        font-family: Open Sans;
         font-size: 40px;
         font-weight: 800;
         line-height: 54px;

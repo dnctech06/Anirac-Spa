@@ -16,15 +16,15 @@ const Header = () => {
                         Somos administradas por nós,
                         movidas pela paixão de cuidar do
                         outro e sempre em busca de algo
-                        novo para inovar.
+                        diferente para inovar.
                         É neste servir de alma com os
                         nossos clientes que formamos
                         relacionamentos de longo prazo, pois
                         a felicidade deles é a nossa
                         felicidade.
                         O nosso negócio foi criado com base
-                        no cuidar de corpo, mente e alma,
-                        pois tudo faz parte do mesmo
+                        no cuidar do <span>corpo, mente e alma, </span> 
+                         pois tudo faz parte do mesmo
                         individuo e é esta grande conjugação
                         que nos torna tão fortes.
                     </p>

@@ -3,7 +3,7 @@
 
 .TesteTitle{
     background-color: var(--RosaClaro);
-    height: 10rem;
+    min-height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;

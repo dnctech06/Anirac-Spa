@@ -23,10 +23,10 @@ const Testemunho = () => {
                 <h1>Cada pessoa é única e merece um atendimento personalizado e privado de acordo com a sua necessidade.
                     O nosso principal objetivo é assegurar a satisfação e bem estar de todos os clientes. </h1>
             </div>
-            <div class="sectionThree">
+            <div className="sectionThree">
                 <Image className='ImgCardTest' src={F4} alt="Foto espaço Anirac" />
 
-                <div class="info">
+                <div className="info">
                     <Image className='ImgAspas' src={Aspas} alt="Foto icone aspas" />
                     <p>
                         "Nunca uma viagem Braga-Barcelos me fez tão bem. Na Anirac encontrei um local onde a dedicação foi máxima.
@@ -37,10 +37,10 @@ const Testemunho = () => {
                     <h1>AUTOR</h1>
                 </div>
             </div>
-            <div class="sectionTwo">
+            <div className="sectionTwo">
                 <Image className='ImgCardTest' src={F1} alt="Foto espaço Anirac" />
 
-                <div class="info">
+                <div className="info">
                     <Image className='ImgAspas' src={Aspas} alt="Foto icone aspas" />
                     <p>
                         "O que eu posso dizer destas meninas e profissionais!!! São excelentes profissionais e acima de tudo são uns
@@ -53,9 +53,9 @@ const Testemunho = () => {
                 </div>
             </div>
 
-            <div class="sectionThree">
+            <div className="sectionThree">
                 <Image className='ImgCardTest' src={F2} alt="Foto espaço Anirac" />
-                <div class="info">
+                <div className="info">
                     <Image className='ImgAspas' src={Aspas} alt="Foto icone aspas" />
                     <p>
                         "Os vossos serviços primam pela vossa atenção e cuidado com que nos recebem no vosso maravilhoso cantinho de bem estar.
@@ -68,9 +68,9 @@ const Testemunho = () => {
                 </div>
             </div>
 
-            <div class="sectionTwo">
+            <div className="sectionTwo">
                 <Image className='ImgCardTest' src={F3} alt="Foto espaço Anirac" />
-                <div class="info">
+                <div className="info">
                     <Image className='ImgAspas' src={Aspas} alt="Foto icone aspas" />
                     <p>
                         "Numa das piores fases porque estou a passar recorri as vossas terapias por aconselhamento de uma amiga e
@@ -80,9 +80,9 @@ const Testemunho = () => {
                     <h1>AUTOR</h1>
                 </div>
             </div>
-            <div class="sectionThree">
+            <div className="sectionThree">
                 <Image className='ImgCardTest' src={F5} alt="Foto espaço Anirac" />
-                <div class="info">
+                <div className="info">
                     <Image className='ImgAspas' src={Aspas} alt="Foto icone aspas" />
                     <p>
                         "A minha experiência na Anirac é puro amor próprio. A maneira como sou recebida e tratada é o espelho do que a 

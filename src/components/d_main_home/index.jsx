@@ -10,7 +10,7 @@ const MainHome = () => {
                 <div className='imageswho'>
                     <div className='imgFrase'>
                         <Image id='foto1' className='ImgWho' src={Flor} alt="Foto render" />
-                        <i><h3>navega por todas as possibilidades que poderes escolher para ti</h3></i>
+                        <i><h3>"navega por todas as possibilidades que poderes escolher para ti"</h3></i>
 
                     </div>
                 </div>

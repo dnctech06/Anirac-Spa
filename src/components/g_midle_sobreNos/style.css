@@ -11,6 +11,8 @@
     align-items: center;
     background-color: var(--Fundo);
     justify-content: space-around;
+    border-top: solid 100px var(--RosaClaro);
+
 }
 
 
@@ -20,7 +22,7 @@
     align-items: center;
     background-color: var(--Fundo);
     justify-content: space-around;
-    margin-top: 100px;
+    border-top: solid 100px var(--RosaClaro);
 }
 
 
@@ -47,7 +49,7 @@
 }
 
 .aboutText p{
-    text-align: left;
+    text-align: center;
     padding: 10px;
     max-width: 40vw;
     color: var(--cinzaletra);
@@ -58,9 +60,6 @@
     padding: 1rem;
 }
 
-.FouderImageLimit{
-
-}
 
 @media screen and (max-width: 850px) {
     .firstfounder {

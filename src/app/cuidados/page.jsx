@@ -9,7 +9,7 @@ const Cuidados = () => {
         <main>
             <Navbar />
             <MidllleCuidados />
-            <Footer style={{ background: 'var(--dois), var(--dois-s)'  }} />
+            <Footer />
         </main>
     );
 };

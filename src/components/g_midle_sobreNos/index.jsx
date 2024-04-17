@@ -16,13 +16,13 @@ const MidllleSobreNos = () => {
                     </div>
                     <div className='aboutText'>
                         <h3>ANA CARINA</h3>
-                        <p>Carina acumulou experiência profissional em diferentes setores, incluindo administração industrial e comércio, 
-                            onde teve contato diário com clientes. Percebeu a importância de dar atenção ao próximo e começou a buscar 
-                            formações, começando pela de nail designer. Uma mudança de trabalho a levou à formação de auxiliar de 
-                            fisioterapia, despertando um interesse pelo cuidado do outro ao lidar com a incapacidade de um familiar. 
-                            Como cuidadora diária, percebeu que sua paixão é proporcionar bem-estar em níveis físicos e mentais. Após 
-                            perder esse familiar, teve a oportunidade de iniciar uma nova formação em massagem estética e bem-estar, 
-                            onde aprimorou sua paixão pela estética como forma de auto-cuidado e devolução de autoestima.
+                        <p>Carina adquiriu experiência profissional em diferentes setores, incluindo administração industrial e comércio,
+                             onde teve conctato diário com clientes. Percebeu a importância de dar atenção ao próximo e começou a fazer 
+                             formações, inicialmente em nail designer. Uma mudança de trabalho levou-a à formação de auxiliar de 
+                             fisioterapia, despertando um interesse pelo cuidado do outro ao lidar com a incapacidade de um familiar. 
+                             Como cuidadora diária, percebeu que a sua paixão é proporcionar bem-estar a nível físico e mental. Iniciou 
+                             uma nova formação em massagem estética e bem-estar, onde aprimorou sua paixão pela estética como forma de 
+                             auto-cuidado e devolução de autoestima.
                         </p>
                     </div>
                 </div>
@@ -31,12 +31,13 @@ const MidllleSobreNos = () => {
 
                         <h3>SUSANA CARINA</h3><br />
                         <p>
-                            Encantada com o poder do toque em suas massagens, mesmo sem formação formal, despertou uma paixão pelo cuidado
-                            pelo outro. Com a pandemia, decidiu seguir seu coração e se dedicar às terapias de bem-estar, estudando
-                            medicinas orientais e o impacto emocional no corpo. Apaixonada pelo autoconhecimento, vê cada corpo como
-                            uma história a ser descoberta, oferecendo não apenas alívio físico, mas também orientação para a libertação
-                            emocional. Amante da natureza, encontra conforto na chuva e usa ervas como aliadas em seu trabalho. Produz
-                            tochas naturais, vaporizações de ervas e sais de banho, sempre em busca de conexão espiritual e autoconhecimento através da medicina ancestral e cristais preciosos.
+                        Encantada com o poder do seu toque em massagens nos familiares, despertou uma paixão pelo cuidado pelo outro. 
+                        Decidiu seguir o seu coração e se dedicar às terapias de bem-estar, estudando medicinas orientais e o impacto 
+                        emocional no corpo e fazendo formações em massagens e terapias integrativas. Apaixonada pelo autoconhecimento, 
+                        vê cada corpo como uma história a ser descoberta, oferecendo não apenas alívio físico, mas também orientação para 
+                        a libertação emocional. Amante da natureza, encontra conforto na chuva e usa ervas, cristais e óleos essenciais 
+                        como aliados no seu trabalho. Produz tochas naturais, vaporizações de ervas e sais de banho, sempre em busca de 
+                        conexão espiritual e autoconhecimento.
                         </p>
 
                     </div>

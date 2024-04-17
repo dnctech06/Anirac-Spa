@@ -33,5 +33,13 @@
 .ImgCarousel{
   width: 600px;
   height: 150px;
+}
+
+@media screen and (max-width: 850px){
+  .Carousel_full{
+    padding-bottom: 1.5rem;
+    background-color: var(--RosaClaro);
+  }
 
 }
+  

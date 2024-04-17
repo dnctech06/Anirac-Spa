@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link id='Home' className='lks' href="sobreNos">SOBRE NÓS</Link>
                 <Link id='Home' className='lks' href="cuidados">SERVIÇOS</Link>
                 <Link id='Home' className='lks' href="testemunhos">TESTEMUNHOS</Link>
-                <Link id='Home' className='lks' href="">LOJA ONLINE</Link>
+                <Link id='Home' className='lks' href="/produtos">PRODUTOS</Link>
                 <Link id='Home' className='lks' href="contatos">CONTACTOS</Link>
             </div>
 

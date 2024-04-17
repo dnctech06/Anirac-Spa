@@ -60,10 +60,10 @@ const Footer = (props) => {
                         <div className="styleLksOut">
                             <a target="_blank" href="https://m.facebook.com/profile.php/?id=100083463273920"><Image className='lks_out' src={FaceBlack} alt="Foto logo" /></a><p> /aniracspa </p>
                         </div>
-                        <p>Faça parte da equipe Anirac!</p>
+                        <p>Faça parte da equipa Anirac!</p>
                         <p>Envie e-mail para:</p>
 
-                        <p>anirac_geral@spo.pt</p>
+                        <p>anirac_geral@sapo.pt</p>
                     </div>
                 </div>
                 <div className='Time'>

@@ -34,7 +34,6 @@ const Testemunho = () => {
                         tratamento. Sai do vosso espaço uma pessoa nova e revigorada. Obrigado pelo trabalho que prestam e por valorizarem
                         todos que por aí passam. Voltarei, sem dúvidas, e recomendo os vossos serviços a todos."
                     </p>
-                    <h1>AUTOR</h1>
                 </div>
             </div>
             <div className="sectionTwo">
@@ -49,7 +48,6 @@ const Testemunho = () => {
                         que elas têm e que eu sempre que necessito também recorro. São uns seres de luz maravilhosas!!! Um beijinho
                         grande minhas lindas."
                     </p>
-                    <h1>AUTOR</h1>
                 </div>
             </div>
 
@@ -64,7 +62,6 @@ const Testemunho = () => {
                         bem estar. Mas melhor de tudo é o enorme e rasgado sorriso que nos dão à chegada e o abraço caloroso que nos envolve
                         à saída e alimenta a vontade de regressar!"
                     </p>
-                    <h1>AUTOR</h1>
                 </div>
             </div>
 
@@ -77,7 +74,6 @@ const Testemunho = () => {
                         não me arrependo nenhum segundo. As vossas terapias ajudaram-me a encontrar o equilíbrio e orientação para
                         conseguir gerir e olhar para as situações mais complicadas de forma mais simples. Recomendo 100%."
                     </p>
-                    <h1>AUTOR</h1>
                 </div>
             </div>
             <div className="sectionThree">
@@ -95,7 +91,6 @@ const Testemunho = () => {
                           ideia, é saúde gente!
                         Obrigado pela Anirac meninas, nós precisávamos tanto dela e nem sabíamos."
                     </p>
-                    <h1>AUTOR</h1>
                 </div>
             </div>
 

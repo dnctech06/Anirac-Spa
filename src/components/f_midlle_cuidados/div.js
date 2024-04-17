@@ -1,7 +1,6 @@
 import { useState } from "react";
 import style from "./style.css";
-import Valores from "./value"
-
+import Valores from "./value";
 
 function Div() {
   const [info, setInfo] = useState(false);
@@ -26,103 +25,130 @@ function Div() {
         <h1>Completo </h1>
       </div>
 
-      {/* <h2>Tratamentos de rosto </h2> */}
-
       {info === true && (
         <section className="valores">
-          <h2>Tratamentos de Rosto</h2>
-
+          {/* LIMPEZA DE PELE */}
+          <h2>Limpeza de Pele</h2>
           <div className="discription">
-            <p>Ácido Marcas Acne</p> <pre> </pre> <p> {Valores.v40}</p>
+            <p>Limpeza Pele Mini Facial</p> <pre> </pre> <p>{Valores.v20}</p>
           </div>
           <div className="discription">
-            <p>Ácido Pele Sensível</p> <pre> </pre> <p>{Valores.v40}</p>
+            <p>Limpeza Pele Normal </p> <pre> </pre> <p>{Valores.v30}</p>
           </div>
           <div className="discription">
-            <p>Ácidos Manchas</p>
-            <pre> </pre> <p>{Valores.v40}</p>
+            <p>Limpeza Pele Profunda</p> <pre> </pre> <p>{Valores.v40}</p>
+          </div>
+          <h2>Massagens</h2>
+          <div className="discription">
+            <p>Terapêutica zona 40'</p> <pre> </pre> <p>{Valores.v30}</p>
           </div>
           <div className="discription">
-            <p>Ácido Redução Rugas</p> <pre> </pre> <p>{Valores.v40}</p>
+            <p>Relaxamento 45'</p>
+            <pre> </pre> <p>{Valores.v35}</p>
           </div>
           <div className="discription">
-            <p>Fibroína de Seda</p> <pre> </pre> <p>{Valores.v60}</p>
-          </div>
-          <h2>Packs</h2>
-
-          <div className="discription">
-            <p>Fibroína de Seda 3 sessões</p>
-            <pre> </pre> <p>{Valores.v150}</p>
+            <p>Lomi Lomi 70'</p>
+            <pre> </pre> <p>{Valores.v45}</p>
           </div>
           <div className="discription">
-            <p>Manutenção com Mãos de Seda</p> <pre> </pre> <p>{Valores.v27}</p>
+            <p>Californiana 45'</p>
+            <pre> </pre> <p>{Valores.v35}</p>
           </div>
           <div className="discription">
-            <p>Verniz de gel com Mãos de Seda</p> <pre> </pre> <p>{Valores.v20}</p>
+            <p>Indian Head Massagem 40'</p>
+            <pre> </pre> <p>{Valores.v35}</p>
           </div>
           <div className="discription">
-            <p>Pedicure completa com Verniz de gel</p>
-            <pre> </pre> <p>{Valores.v25}</p>
+            <p>Thai Yoga Massage 50'</p> <pre> </pre> <p>{Valores.v50}</p>
           </div>
           <div className="discription">
-            <p>Pedicure normal com Verniz de gel</p>
-            <pre> </pre> <p>{Valores.v18}</p>
+            <p>Shiatsu 1ª sessão 90'</p> <pre> </pre> <p>{Valores.v60}</p>
           </div>
           <div className="discription">
-            <p>Hidrolinfa Pack de 10</p>
-            <pre> </pre> <p>{Valores.v100} Válidade 3 meses</p>
+            <p>Shiatsu sessões seguintes 45'</p> <pre> </pre>{" "}
+            <p>{Valores.v35}</p>
           </div>
           <div className="discription">
-            <p>Terapêutica zona 40' Pack de 3</p> <pre> </pre> <p>{Valores.v80}</p>
+            <p>Massagem a 4 mãos 30' </p> <pre> </pre> <p>{Valores.v50}</p>
           </div>
           <div className="discription">
-            <p>Massagem de relaxamento Pack de 3</p> <pre> </pre> <p>{Valores.v99}</p>
+            <p>Massagem Relaxante a Dois 50'</p> <pre> </pre>{" "}
+            <p>{Valores.v80}</p>
           </div>
           <div className="discription">
-            <p>Barra de Acess Pack de 5</p> <pre> </pre> <p>{Valores.v275}</p>
+            <p>Massagem Lomi-Lomi a Dois 70'</p> <pre> </pre>{" "}
+            <p>{Valores.v95}</p>
+          </div>
+          <div className="discription">
+            <p>Terapêutica zona 40’ Pack de 3</p> <pre> </pre>{" "}
+            <p>{Valores.v95}</p>
+          </div>
+          <div className="discription">
+            <p>Massagem de relaxamento Pack de 3</p> <pre> </pre>{" "}
+            <p>{Valores.v95}</p>
           </div>
         </section>
       )}
-
       {info === true && (
         <section className="valores">
+          <h2>Tratamento Corpo</h2>
           <div className="discription">
-            <p>Osteopatia</p> <pre> </pre> <p>{Valores.v45}</p>
+            <p>Drenagem Lintática 60'</p>
+            <pre> </pre> <p>{Valores.v40}</p>
           </div>
           <div className="discription">
-            <p>Osteopatia Pediátrica</p> <pre> </pre> <p>{Valores.v45}</p>
+            <p>Drenagem Lintática com Rosto 75'</p>
+            <pre> </pre> <p>{Valores.v40}</p>
           </div>
           <div className="discription">
-            <p>Osteopatia Genecológica</p> <pre> </pre> <p>{Valores.v40}</p>
-          </div>
-          <h2>Harmonização Facial</h2>
-
-          <div className="discription">
-            <p>Full Face (4 zonas)</p> <pre> </pre> <p>{Valores.v250}</p>
-          </div>
-
-          <div className="discription">
-            <p>Full Face (1 zona)</p> <pre> </pre> <p>{Valores.v150}</p>
-          </div>
-          <h2>Ácido Hilurónico</h2>
-
-          <div className="discription">
-            <p>1 Seringa 1ml</p> <pre> </pre> <p>{Valores.v200}</p>
-          </div>
-          <h2>Boestimuladores</h2>
-
-          <div className="discription">
-            <p>Radiesse</p> <pre> </pre> <p>{Valores.v40}</p>
+            <p>Drenagem Lintática Zona 30'</p> <pre> </pre> <p>{Valores.v20}</p>
           </div>
           <div className="discription">
-            <p>Sculptra / Elleva</p> <pre> </pre> <p>{Valores.v450}</p>
-          </div>
-          <h2>Fios de PDO</h2>
-          <div className="discription">
-            <p>Multi / Spring</p> <pre> </pre> <p>{Valores.v15}</p>
+            <p>Massagem Facial Drenante 20'</p>
+            <pre> </pre> <p>{Valores.v15}</p>
           </div>
           <div className="discription">
-            <p>Multi-fill</p> <pre> </pre> <p>{Valores.v75}</p>
+            <p>Massagem Silhueta Zona 35'</p> <pre> </pre> <p>{Valores.v25}</p>
+          </div>
+          <div className="discription">
+            <p>Tratamentos Pernas Cansadas 40'</p>
+            <pre> </pre> <p>{Valores.v30}</p>
+          </div>
+          <div className="discription">
+            <p>Reflexologia Auricular </p>
+            <pre> </pre> <p>{Valores.v5}</p>
+          </div>
+          <div className="discription">
+            <p>Bandas neuromusculares </p>
+            <pre> </pre> <p>{Valores.v5}</p>
+          </div>    
+          <h2>Mental</h2>
+          <div className="discription">
+            <p>Corpo Mente e Alma 120'</p> <pre> </pre> <p>{Valores.v100}</p>
+          </div>
+          <div className="discription">
+            <p>Alma Revitalizada 70'</p>
+            <pre> </pre> <p>{Valores.v75}</p>
+          </div>
+          <div className="discription">
+            <p>Toque Terapêutio 60'</p>
+            <pre> </pre> <p>{Valores.v60}</p>
+          </div>
+          <div className="discription">
+            <p>Barras Access 70'</p>
+            <pre> </pre> <p>{Valores.v60}</p>
+          </div>
+          <div className="discription">
+            <p>Reiki Uchu Tekina 50'</p>
+            <pre> </pre> <p>{Valores.v60}</p>
+          </div>
+          <div className="discription">
+            <p>Barras de Access Pack 5</p>
+            <pre> </pre> <p>{Valores.v60}</p>
+          </div>
+          <div className="discription">
+            <p>Reiki Uchu Tekina Pack 5</p>
+            <pre> </pre> <p>{Valores.v60}</p>
           </div>
         </section>
       )}

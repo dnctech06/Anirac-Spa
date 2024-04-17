@@ -1,0 +1,15 @@
+@import url(../globals.css);
+
+.ProdutosTitile{
+    background-color: var(--RosaClaro);
+    height: auto;
+    padding: 2rem;
+}
+
+
+
+.ProdutosTitile h1{
+    color: var(--verdeletra);
+    text-align: center;
+    font-size: 3rem;
+}
